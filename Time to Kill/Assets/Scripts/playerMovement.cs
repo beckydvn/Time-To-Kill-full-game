@@ -13,6 +13,7 @@ public class playerMovement : MonoBehaviour
     public float movementSpeed = 5f;
     public float h;
     public float v;
+    public Animator animator;
 
     void Start()
     {
@@ -26,6 +27,23 @@ public class playerMovement : MonoBehaviour
         //create input for both x and y directions
         h = Input.GetAxisRaw("Horizontal");
         v = Input.GetAxisRaw("Vertical");
+
+        //find total velocity of char
+        var vel = rigidbody.velocity;
+
+        //set what direction the char is moving
+        animator.SetFloat("Horizontal", h);
+        animator.SetFloat("Vertical", v);
+
+        if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
+        {
+            //get last movement so player faces the correct way when they stop
+            animator.SetFloat("LastHorizontal", Input.GetAxisRaw("Horizontal"));
+            animator.SetFloat("LastVertical", Input.GetAxisRaw("Vertical"));
+        }
+
+        //set speed so tranition happens when character moves
+        animator.SetFloat("Speed", vel.sqrMagnitude);
     }
 
     void FixedUpdate()
