@@ -11,7 +11,7 @@ public class Room : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             virtualCamera.SetActive(true);
-            Debug.Log(virtualCamera + " turned on");
+            //Debug.Log(virtualCamera + " turned on");
         }
     }
     public virtual void OnTriggerExit2D(Collider2D other)
@@ -20,21 +20,15 @@ public class Room : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             virtualCamera.SetActive(false);
-            Debug.Log(virtualCamera + " turned off");
+            //Debug.Log(virtualCamera + " turned off");
         }
     }
 
-    private void Update()
-    {
-        //Debugging purposes
-        //Debug.Log(virtualCamera + " at " + virtualCamera.transform.position);
-    }
 
     private void Start()
     {
         //each camera should be off initially
         virtualCamera.SetActive(false);
     }
-
 
 }
