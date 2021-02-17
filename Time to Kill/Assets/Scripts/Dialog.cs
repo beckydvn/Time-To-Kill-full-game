@@ -35,7 +35,7 @@ public class Dialog : MonoBehaviour
     void Update()
     {
         //if the player is pressing F and colliding with the object
-        if(Input.GetKeyDown(KeyCode.F) && colliding)
+        if(Input.GetKeyDown(KeyCode.J) && colliding)
         {  
             //if no text has been read yet
             if(index == 0)
