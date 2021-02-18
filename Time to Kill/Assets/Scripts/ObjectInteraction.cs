@@ -111,26 +111,24 @@ public class ObjectInteraction : MonoBehaviour
             //TO THE CURRENT SELECTED POSITION, AND IF IT IS, DISPLAY THE OBJECT'S TEXT.
 
             numSlots = objectGrid.transform.childCount;
-            rowPos = (numSlots) / invScript.getCols();
-            colPos = ((numSlots)% invScript.getCols());
+            rowPos = numSlots / invScript.getCols();
+            colPos = numSlots % invScript.getCols();
             //Debug.Log(numSlots + " " + rowPos + " " + colPos);
             inventoryPos = new Vector2(rowPos, colPos);
 
             GameObject nextObject = Instantiate(inventoryObject);
             nextObject.transform.SetParent(objectGrid.transform);
             UIObject access = (UIObject)nextObject.GetComponent(typeof(UIObject));
-            access.SetUp();
+            //set position
+            access.SetUp(inventoryPos);
+            //pass on tag
+            access.setUIObjTag(transform.tag);
         }
         else
         {
             //player can interact with it again
             index = 0;
         }
-    }
-
-    public Vector2 GetObjectPosition()
-    {
-        return inventoryPos;
     }
 
     private void OnCollisionEnter2D(Collision2D other)

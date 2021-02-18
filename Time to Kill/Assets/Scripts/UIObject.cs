@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIObject : MonoBehaviour
 {
@@ -21,15 +22,18 @@ public class UIObject : MonoBehaviour
     public string infoText;
     //text display
     public TextMeshProUGUI textDisplay;
-    //replace
-    private string trim;
-    //length
-    private int length;
+    //object tag!
+    private string uiObjTag;
+    //equipped object
+    public GameObject objToEquip;
+    //image to set the equipped object to
+    private Image uiSprite;
 
-    public void SetUp()
+
+    public void SetUp(Vector2 getPos)
     {
-        pos = obj.GetObjectPosition();
-        Debug.Log("position of object " + obj + pos);
+        pos = getPos;
+        uiSprite = transform.gameObject.GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -41,11 +45,29 @@ public class UIObject : MonoBehaviour
         {
             textDisplay.text = "";
             textDisplay.text += infoText;
-            length = infoText.Length;
         }
     }
     public bool getObjectSelected()
     {
         return isSelected;
+    }
+
+    public void setUIObjTag(string set)
+    {
+        uiObjTag = set;
+    }
+
+
+    private void OnGUI()
+    {
+        if (Event.current.Equals(Event.KeyboardEvent("J")))
+        {
+            if(isSelected)
+            {
+                EquippedObject access = (EquippedObject)objToEquip.GetComponent(typeof(EquippedObject));
+                access.setEquippedTag(uiObjTag);
+                access.setSprite(uiSprite.sprite);
+            }
+        }
     }
 }

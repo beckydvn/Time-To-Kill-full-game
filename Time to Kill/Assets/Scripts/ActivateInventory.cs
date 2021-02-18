@@ -13,20 +13,19 @@ public class ActivateInventory : MonoBehaviour
     //player (needs to freeze the player transform)
     public GameObject player;
 
-
     // Start is called before the first frame update
     void Start()
     {
         inventoryCanvas.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnGUI()
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Event.current.Equals(Event.KeyboardEvent("I")))
         {
             activationStatus = !activationStatus;
-            inventoryCanvas.gameObject.SetActive(activationStatus);        
+            inventoryCanvas.gameObject.SetActive(activationStatus);
+
             //get the player's position to freeze it
             freeze = player.transform.position;
         }
@@ -34,7 +33,5 @@ public class ActivateInventory : MonoBehaviour
         {
             player.transform.position = freeze;
         }
-
     }
-    
 }
