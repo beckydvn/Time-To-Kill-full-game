@@ -8,6 +8,10 @@ public class ActivateInventory : MonoBehaviour
     public GameObject inventoryCanvas;
     //activation status
     bool activationStatus = false;
+    //original position of the player
+    private Vector2 freeze;
+    //player (needs to freeze the player transform)
+    public GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -21,8 +25,15 @@ public class ActivateInventory : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             activationStatus = !activationStatus;
-            inventoryCanvas.gameObject.SetActive(activationStatus);
+            inventoryCanvas.gameObject.SetActive(activationStatus);        
+            //get the player's position to freeze it
+            freeze = player.transform.position;
         }
+        if(activationStatus)
+        {
+            player.transform.position = freeze;
+        }
+
     }
     
 }

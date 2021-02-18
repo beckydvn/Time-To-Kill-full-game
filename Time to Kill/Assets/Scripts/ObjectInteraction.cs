@@ -33,6 +33,15 @@ public class ObjectInteraction : MonoBehaviour
     private GridLayoutGroup objectGrid;
     //object to add to inventory
     public GameObject inventoryObject;
+    //number of slots taken
+    private int numSlots = 0;
+    //row and column position
+    private int rowPos;
+    private int colPos;
+    //position of the object in the inventory
+    private Vector2 inventoryPos;
+    //inventory object to get the row/col number
+    public NavigateInventory invScript;
 
     // Start is called before the first frame update
     void Start()
@@ -97,21 +106,33 @@ public class ObjectInteraction : MonoBehaviour
         {
             //destroy the object once collected
             Destroy(this.gameObject);
-            //add to inventory
+            //add to inventory (USE A GENERAL MOD CALCULATION HERE TO TELL WHAT POSITION THE OBJECT IS IN; THEN, YOU CAN
+            //LINK IT TO THE OBJECT THROUGH A VARIABLE OR COMPONENT. THEN, IN THE OBJECT YOU CAN CHECK IF THE POSITION IS EQUAL
+            //TO THE CURRENT SELECTED POSITION, AND IF IT IS, DISPLAY THE OBJECT'S TEXT.
+
+            numSlots = objectGrid.transform.childCount;
+            rowPos = (numSlots) / invScript.getCols();
+            colPos = ((numSlots)% invScript.getCols());
+            //Debug.Log(numSlots + " " + rowPos + " " + colPos);
+            inventoryPos = new Vector2(rowPos, colPos);
+
             GameObject nextObject = Instantiate(inventoryObject);
             nextObject.transform.SetParent(objectGrid.transform);
-
-            //inventoryList.Add(this.ToString());
-            //Debug.Log(inventoryList);
+            UIObject access = (UIObject)nextObject.GetComponent(typeof(UIObject));
+            access.SetUp();
         }
         else
         {
             //player can interact with it again
             index = 0;
         }
-
-
     }
+
+    public Vector2 GetObjectPosition()
+    {
+        return inventoryPos;
+    }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player") && other.gameObject.transform.position.y < transform.position.y)

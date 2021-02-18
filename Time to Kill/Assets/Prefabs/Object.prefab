@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2025279274902664320}
   - component: {fileID: 1486491016046746088}
   m_Layer: 0
-  m_Name: Object_Test
+  m_Name: Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,3 +129,6 @@ MonoBehaviour:
   - Spaghetti added to the Inventory.
   player: {fileID: 0}
   dialogueBackground: {fileID: 0}
+  collectable: 1
+  gridSetup: {fileID: 0}
+  inventoryObject: {fileID: 0}

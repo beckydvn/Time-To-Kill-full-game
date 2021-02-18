@@ -10,16 +10,14 @@ public class NavigateInventory : MonoBehaviour
     //slot prefab reference
     public GameObject slot;
     //number of columns
-    private int cols = 3;
+    public int cols = 3;
     //number of rows
-    private int rows = 4;
+    public int rows = 4;
     //directions to be used
     public string up;
     public string down;
     public string left;
     public string right;
-    //player (needs to freeze the player transform)
-    public GameObject player;
     //tells if slots are full
     private bool[,] isFull;
     //holds movement
@@ -34,8 +32,6 @@ public class NavigateInventory : MonoBehaviour
     public Sprite buttonUp;
     //has the selected slot changed?
     private bool changedSelected;
-    //original position of the player
-    private Vector2 freeze;
 
     // Start is called before the first frame update
     void Start()
@@ -47,8 +43,6 @@ public class NavigateInventory : MonoBehaviour
         //instantiate arrays
         isFull = new bool[rows, cols];
         slots = new GameObject[rows, cols];
-        //get the player's position to freeze it
-        freeze = player.transform.position;
 
         //set up bools and clones
         for (int i = 0; i < rows; i++)
@@ -67,12 +61,20 @@ public class NavigateInventory : MonoBehaviour
         //set the first slot to selected
         ChangeSprite(selected, prevSelected);
     }
-
-    private void Update()
-    {
-        player.transform.position = freeze;
-    }
     
+    public int getRows()
+    {
+        return rows;
+    }   
+    public int getCols()
+    {
+        return cols;
+    }
+    public Vector2 getSelected()
+    {
+        return selected;
+    }
+
     private void ChangeSprite(Vector2 prevSelected, Vector2 selected)
     {
         //unselect previous slot and select current slot (graphically)
@@ -81,7 +83,6 @@ public class NavigateInventory : MonoBehaviour
         Image select = slots[(int)selected.x, (int)selected.y].GetComponent<Image>();
         select.sprite = pressed;
     }
-
 
     private void OnGUI()
     {
