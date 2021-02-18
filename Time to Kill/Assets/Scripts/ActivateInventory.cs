@@ -13,6 +13,7 @@ public class ActivateInventory : MonoBehaviour
     //player (needs to freeze the player transform)
     public GameObject player;
 
+
     // Start is called before the first frame update
     void Start()
     {

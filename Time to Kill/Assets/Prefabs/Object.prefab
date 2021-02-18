@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2025279274902664322}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.4146, y: -2.351, z: 0}
   m_LocalScale: {x: 0.5238423, y: 0.61331624, z: 1}
   m_Children: []
@@ -124,11 +124,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 0}
   sentences:
-  - You see some spaghetti.
-  - It looks scrumptious.
+  - THE SPAGHETTI IS EVIL
+  - DO NOT EAT
   - Spaghetti added to the Inventory.
   player: {fileID: 0}
   dialogueBackground: {fileID: 0}
   collectable: 1
   gridSetup: {fileID: 0}
   inventoryObject: {fileID: 0}
+  invScript: {fileID: 0}
