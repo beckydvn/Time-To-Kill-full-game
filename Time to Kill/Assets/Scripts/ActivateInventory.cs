@@ -7,7 +7,7 @@ public class ActivateInventory : MonoBehaviour
     //get inventory gameobjects
     public GameObject inventoryCanvas;
     //activation status
-    bool activationStatus = false;
+    private bool activationStatus = false;
     //original position of the player
     private Vector2 freeze;
     //player (needs to freeze the player transform)
@@ -17,6 +17,11 @@ public class ActivateInventory : MonoBehaviour
     void Start()
     {
         inventoryCanvas.gameObject.SetActive(false);
+    }
+
+    public bool getInvStatus()
+    {
+        return activationStatus;
     }
 
     private void OnGUI()
