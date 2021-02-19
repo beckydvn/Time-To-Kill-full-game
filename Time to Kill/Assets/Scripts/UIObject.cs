@@ -43,8 +43,6 @@ public class UIObject : MonoBehaviour
     {
         uiSprite = transform.gameObject.GetComponent<Image>();
         access = (EquippedObject)objToEquip.GetComponent(typeof(EquippedObject));
-        //textClone = Instantiate(overlayText.gameObject);
-        //textClone.transform.SetParent(gameObject.transform);
         overlayText.text = "";
     }
     // Update is called once per frame
