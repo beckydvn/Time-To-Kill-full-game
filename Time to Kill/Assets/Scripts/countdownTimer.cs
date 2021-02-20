@@ -6,8 +6,6 @@ using UnityEngine.UI;
 
 public class countdownTimer : MonoBehaviour
 {
-
-
     public Text timerText;
 
     private bool isTimer;
@@ -16,7 +14,6 @@ public class countdownTimer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
- 
         isTimer = true;
     }
 
@@ -31,8 +28,6 @@ public class countdownTimer : MonoBehaviour
     {
         if (isTimer)
         {
-           
-
             if(timeLeft > 0)
             {
                 timeLeft -= Time.deltaTime;
