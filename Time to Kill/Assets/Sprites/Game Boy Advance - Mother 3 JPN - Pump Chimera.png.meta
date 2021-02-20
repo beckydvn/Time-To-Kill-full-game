@@ -1,0 +1,2724 @@
+fileFormatVersion: 2
+guid: 6cd4b546598e3e840bfaa62b6ea3590b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6117685295920868003
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_0
+  - first:
+      213: 5618428448296876310
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_1
+  - first:
+      213: -7923384070842479159
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_2
+  - first:
+      213: 4195469182437467288
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_3
+  - first:
+      213: -2256032794515605188
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_4
+  - first:
+      213: -4661819809851657284
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_5
+  - first:
+      213: 8317888608436382491
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_6
+  - first:
+      213: -8502454742330826204
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_7
+  - first:
+      213: -3753981922661230489
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_8
+  - first:
+      213: 8608312785789452454
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_9
+  - first:
+      213: -3988109962757293357
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_10
+  - first:
+      213: -4512729718297846904
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_11
+  - first:
+      213: 972530138659905831
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_12
+  - first:
+      213: 6740098705384731838
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_13
+  - first:
+      213: -6506237188460388106
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_14
+  - first:
+      213: -7049065138202131350
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_15
+  - first:
+      213: -6007014309332694504
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_16
+  - first:
+      213: 2747278631839621109
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_17
+  - first:
+      213: 8394442098607316881
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_18
+  - first:
+      213: -8844586875841776458
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_19
+  - first:
+      213: 2506912695972554780
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_20
+  - first:
+      213: -3569161913529471507
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_21
+  - first:
+      213: -6907804260033360045
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_22
+  - first:
+      213: 7145265180781540458
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_23
+  - first:
+      213: -2668768986311599139
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_24
+  - first:
+      213: 3680766336699064177
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_25
+  - first:
+      213: -4586387019738606160
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_26
+  - first:
+      213: 548890465084084293
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_27
+  - first:
+      213: -4865783957301916542
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_28
+  - first:
+      213: -9172857686830137634
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_29
+  - first:
+      213: -7477226784468518276
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_30
+  - first:
+      213: 811166323950144501
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_31
+  - first:
+      213: -7386346328726260819
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_32
+  - first:
+      213: -5291880152463332129
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_33
+  - first:
+      213: -6584376018797322000
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_34
+  - first:
+      213: 4435514842889516920
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_35
+  - first:
+      213: 136145990685435414
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_36
+  - first:
+      213: -2938699756309327120
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_37
+  - first:
+      213: 1239747348631518377
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_38
+  - first:
+      213: 7488764727069300337
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_39
+  - first:
+      213: -4718694185216949964
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_40
+  - first:
+      213: 6519305483607530939
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_41
+  - first:
+      213: -2861589872443002460
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_42
+  - first:
+      213: -9062953498711999025
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_43
+  - first:
+      213: -6984161978240079621
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_44
+  - first:
+      213: 7427163915377860619
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_45
+  - first:
+      213: 4466587103832910758
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_46
+  - first:
+      213: -8567454341265052054
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_47
+  - first:
+      213: -4769897876501687460
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_48
+  - first:
+      213: 3438952133795680139
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_49
+  - first:
+      213: -4990707939615922945
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_50
+  - first:
+      213: 3803095569993167601
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_51
+  - first:
+      213: -1415193785783051539
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_52
+  - first:
+      213: -2766928275292732031
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_53
+  - first:
+      213: 8067319323442947910
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_54
+  - first:
+      213: 6782567920232133392
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_55
+  - first:
+      213: -5829311664147230651
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_56
+  - first:
+      213: 2211119737362589258
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_57
+  - first:
+      213: -1811417052698434508
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_58
+  - first:
+      213: 8519597662551626063
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_59
+  - first:
+      213: 5046737253407656745
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_60
+  - first:
+      213: 1584394286100029404
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_61
+  - first:
+      213: 6893599843082724541
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_62
+  - first:
+      213: 1629220849705171580
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_63
+  - first:
+      213: 751725418991785489
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_64
+  - first:
+      213: 5443406621528436105
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_65
+  - first:
+      213: 7224599534553978611
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_66
+  - first:
+      213: -5852140011753988695
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_67
+  - first:
+      213: 3308263470634139888
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_68
+  - first:
+      213: -435680889583716316
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_69
+  - first:
+      213: 2560075785370488514
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_70
+  - first:
+      213: -7397587933790753167
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_71
+  - first:
+      213: 3327666611914691600
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_72
+  - first:
+      213: 1783906501321249669
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_73
+  - first:
+      213: -577042128469831191
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_74
+  - first:
+      213: 1505411755657034278
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_75
+  - first:
+      213: -1924960774424495845
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_76
+  - first:
+      213: -1448184829929053598
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_77
+  - first:
+      213: 1993426057445438191
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_78
+  - first:
+      213: 5028479803367428276
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_79
+  - first:
+      213: 4658829250927443909
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_80
+  - first:
+      213: 2825539750836909560
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_81
+  - first:
+      213: 6292763526029233585
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_82
+  - first:
+      213: -5625705577524156785
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_83
+  - first:
+      213: 5615911248769122690
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_84
+  - first:
+      213: -529433649432821429
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_85
+  - first:
+      213: 4786244333615129457
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_86
+  - first:
+      213: -1688469168571889342
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_87
+  - first:
+      213: 3147963137252708596
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_88
+  - first:
+      213: 1705349380585592218
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_89
+  - first:
+      213: 3618315741043171951
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_90
+  - first:
+      213: -6641869838689202983
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_91
+  - first:
+      213: -8938677987424946715
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_92
+  - first:
+      213: 1480731096737955003
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_93
+  - first:
+      213: 8628454501068590956
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_94
+  - first:
+      213: 5913739163144656403
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_95
+  - first:
+      213: 2755961763485757723
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_96
+  - first:
+      213: 5736167176919525579
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_97
+  - first:
+      213: -6651915255149278826
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_98
+  - first:
+      213: -7664675875670108620
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_99
+  - first:
+      213: 8475659800691743423
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_100
+  - first:
+      213: -5544004844855266057
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_101
+  - first:
+      213: 1919804189769427718
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_102
+  - first:
+      213: 1637033516866919061
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_103
+  - first:
+      213: -6681897939244028714
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_104
+  - first:
+      213: -4175031745278133401
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_105
+  - first:
+      213: -6772982738353488083
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_106
+  - first:
+      213: -728011376633260972
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_107
+  - first:
+      213: 5654366247730778134
+    second: Game Boy Advance - Mother 3 JPN - Pump Chimera_108
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 734
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d559101e2ad991ba0800000000000000
+      internalID: -6117685295920868003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 732
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6193fa0f7eaa8fd40800000000000000
+      internalID: 5618428448296876310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 734
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd027eda2c7a0290800000000000000
+      internalID: -7923384070842479159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 732
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894a84d2efc493a30800000000000000
+      internalID: 4195469182437467288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 734
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39f3495026f0b0e0800000000000000
+      internalID: -2256032794515605188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 727
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3b9e21593ed4fb0800000000000000
+      internalID: -4661819809851657284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_6
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 725
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b6e1b8e931f6370800000000000000
+      internalID: 8317888608436382491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_7
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 728
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4222984b576310a80800000000000000
+      internalID: -8502454742330826204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_8
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 728
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7681a8ea45d27ebc0800000000000000
+      internalID: -3753981922661230489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_9
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 726
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a00f60beded67770800000000000000
+      internalID: 8608312785789452454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 727
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dab7a86e1367a8c0800000000000000
+      internalID: -3988109962757293357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 671
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b128d0b309f51c0800000000000000
+      internalID: -4512729718297846904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 670
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7216f28220f1f7d00800000000000000
+      internalID: 972530138659905831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 671
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4f68ddf04a98d50800000000000000
+      internalID: 6740098705384731838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_14
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 672
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0e165afb335b5a0800000000000000
+      internalID: -6506237188460388106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 669
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a644fd6ba90bc2e90800000000000000
+      internalID: -7049065138202131350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_16
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 652
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a498bef4cc2aca0800000000000000
+      internalID: -6007014309332694504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_17
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 653
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff52d52c5b402620800000000000000
+      internalID: 2747278631839621109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_18
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 653
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fd21fec9c0f7470800000000000000
+      internalID: 8394442098607316881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_19
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 655
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b47e58d817b14580800000000000000
+      internalID: -8844586875841776458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_20
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 647
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c186c5690d75ac220800000000000000
+      internalID: 2506912695972554780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_21
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 643
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dede83e562ac77ec0800000000000000
+      internalID: -3569161913529471507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 540
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f08c6ef9c8220a0800000000000000
+      internalID: -6907804260033360045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_23
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 540
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64737e13d4192360800000000000000
+      internalID: 7145265180781540458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_24
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 542
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb51572fb0a6fad0800000000000000
+      internalID: -2668768986311599139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_25
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 541
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fd9205b75b41330800000000000000
+      internalID: 3680766336699064177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 545
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b594062e41e950c0800000000000000
+      internalID: -4586387019738606160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_27
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 547
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5409fe748fc0e9700800000000000000
+      internalID: 548890465084084293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 548
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c89375543497cb0800000000000000
+      internalID: -4865783957301916542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_29
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 547
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede3741a88673b080800000000000000
+      internalID: -9172857686830137634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_30
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 458
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ab7b60bdd8b3890800000000000000
+      internalID: -7477226784468518276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 456
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbcec05977d14b00800000000000000
+      internalID: 811166323950144501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_32
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 458
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3b248062d6e7990800000000000000
+      internalID: -7386346328726260819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_33
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 459
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcab76f9077f86b0800000000000000
+      internalID: -5291880152463332129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_34
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 458
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f02cfb75e89f94a0800000000000000
+      internalID: -6584376018797322000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_35
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 461
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877f66ecf3d1e8d30800000000000000
+      internalID: 4435514842889516920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_36
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 466
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6162664ae00b3e100800000000000000
+      internalID: 136145990685435414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_37
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 467
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2d7ab3424a737d0800000000000000
+      internalID: -2938699756309327120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_38
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 373
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acf96625a7743110800000000000000
+      internalID: 1239747348631518377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 374
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176d07397df6de760800000000000000
+      internalID: 7488764727069300337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_40
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 374
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4314176a3a4d38eb0800000000000000
+      internalID: -4718694185216949964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_41
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 375
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbddeacebc9397a50800000000000000
+      internalID: 6519305483607530939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_42
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 378
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1fd202c279948d0800000000000000
+      internalID: -2861589872443002460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_43
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 378
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd336d7fcbe93280800000000000000
+      internalID: -9062953498711999025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_44
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 384
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8e5393fa5431f90800000000000000
+      internalID: -6984161978240079621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_45
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 387
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0062b0fa36921760800000000000000
+      internalID: 7427163915377860619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_46
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 288
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab2d425e418cfd30800000000000000
+      internalID: 4466587103832910758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_47
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 290
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ea48f3ba94a1980800000000000000
+      internalID: -8567454341265052054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_48
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 293
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c531a30472bedcdb0800000000000000
+      internalID: -4769897876501687460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_49
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 294
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f867ecebc99bf20800000000000000
+      internalID: 3438952133795680139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_50
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 292
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4a87122917dbab0800000000000000
+      internalID: -4990707939615922945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_51
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 294
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2fd40754f47c430800000000000000
+      internalID: 3803095569993167601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_52
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 297
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea9f06ffb83c5ce0800000000000000
+      internalID: -1415193785783051539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_53
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 299
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1854138b465e999d0800000000000000
+      internalID: -2766928275292732031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_54
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 206
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6472673ae20e4ff60800000000000000
+      internalID: 8067319323442947910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_55
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 208
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013756e7695802e50800000000000000
+      internalID: 6782567920232133392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_56
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 209
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540967d2def1a1fa0800000000000000
+      internalID: -5829311664147230651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_57
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 212
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a462a55afa97fae10800000000000000
+      internalID: 2211119737362589258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_58
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 211
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43423d1b9cd8cd6e0800000000000000
+      internalID: -1811417052698434508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_59
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 220
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4153a17fe0bb3670800000000000000
+      internalID: 8519597662551626063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_60
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 220
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b08101bcc990640800000000000000
+      internalID: 5046737253407656745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_61
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 220
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf962f6536ecf510800000000000000
+      internalID: 1584394286100029404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_62
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 180
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db462ae888cfaaf50800000000000000
+      internalID: 6893599843082724541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_63
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 206
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a36571bb72c9610800000000000000
+      internalID: 1629220849705171580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_64
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 209
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11613a7294aae6a00800000000000000
+      internalID: 751725418991785489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_65
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 209
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d263c5b7dda8b40800000000000000
+      internalID: 5443406621528436105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_66
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 209
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6da85cffee24460800000000000000
+      internalID: 7224599534553978611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_67
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 206
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad9d8f4aa509cea0800000000000000
+      internalID: -5852140011753988695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_68
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 209
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f08c8e391059ed20800000000000000
+      internalID: 3308263470634139888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_69
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 209
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428bfec0a8624f9f0800000000000000
+      internalID: -435680889583716316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_70
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 209
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce4619ec57378320800000000000000
+      internalID: 2560075785370488514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_71
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 209
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17eafa3e7fc765990800000000000000
+      internalID: -7397587933790753167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_72
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 206
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0145a1e172f3e2e20800000000000000
+      internalID: 3327666611914691600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_73
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 209
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58353cbe285b1c810800000000000000
+      internalID: 1783906501321249669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_74
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 194
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1de10dd3fedf7f0800000000000000
+      internalID: -577042128469831191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_75
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 194
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a72a8040c44e410800000000000000
+      internalID: 1505411755657034278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_76
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 194
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19fdd1ef5a2945e0800000000000000
+      internalID: -1924960774424495845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_77
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 194
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26228fae19307ebe0800000000000000
+      internalID: -1448184829929053598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_78
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 194
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2fa0800721aab10800000000000000
+      internalID: 1993426057445438191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_79
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 194
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b011f73dbfb8c540800000000000000
+      internalID: 5028479803367428276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_80
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 194
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfbaba258c77a040800000000000000
+      internalID: 4658829250927443909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_81
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 194
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5316bde65563720800000000000000
+      internalID: 2825539750836909560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_82
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 194
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdc1802613645750800000000000000
+      internalID: 6292763526029233585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_83
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 194
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f862db0659a7de1b0800000000000000
+      internalID: -5625705577524156785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_84
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 98
+        width: 30
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2810101c689bfed40800000000000000
+      internalID: 5615911248769122690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_85
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 98
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b410b61a6e217a8f0800000000000000
+      internalID: -529433649432821429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_86
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 97
+        width: 30
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1732b51ecd72c6240800000000000000
+      internalID: 4786244333615129457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_87
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 97
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249c211bc3a5198e0800000000000000
+      internalID: -1688469168571889342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_88
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 103
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0d8f17bcfcfab20800000000000000
+      internalID: 3147963137252708596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_89
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 100
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a959cbfe93e9aa710800000000000000
+      internalID: 1705349380585592218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_90
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 104
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62251eeef6d63230800000000000000
+      internalID: 3618315741043171951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_91
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 103
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc8c84629653d3a0800000000000000
+      internalID: -6641869838689202983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_92
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 103
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5bee5cabf63f380800000000000000
+      internalID: -8938677987424946715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_93
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 101
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcb0f4561d9c8410800000000000000
+      internalID: 1480731096737955003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_94
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 98
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f40d837ad6eb770800000000000000
+      internalID: 8628454501068590956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_95
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 97
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3169d81cf62d11250800000000000000
+      internalID: 5913739163144656403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_96
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 99
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11b0274f942f3620800000000000000
+      internalID: 2755961763485757723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_97
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 102
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc82b88e7a5fa9f40800000000000000
+      internalID: 5736167176919525579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_98
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 98
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69943dc9156afa3a0800000000000000
+      internalID: -6651915255149278826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_99
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 18
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4365d2876e991a590800000000000000
+      internalID: -7664675875670108620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_100
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 18
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba1a49cea79f9570800000000000000
+      internalID: 8475659800691743423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_101
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 16
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f47b5d87fcbf03b0800000000000000
+      internalID: -5544004844855266057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_102
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 18
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b63813db384aa10800000000000000
+      internalID: 1919804189769427718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_103
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 16
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ad24a6f49e7b610800000000000000
+      internalID: 1637033516866919061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_104
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 16
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dce1f9f9312543a0800000000000000
+      internalID: -6681897939244028714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_105
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 16
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bb7b87fbe4f06c0800000000000000
+      internalID: -4175031745278133401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_106
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 16
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f769295188102a0800000000000000
+      internalID: -6772982738353488083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_107
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 21
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454d457928595e5f0800000000000000
+      internalID: -728011376633260972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mother 3 JPN - Pump Chimera_108
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 25
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61093f9e428587e40800000000000000
+      internalID: 5654366247730778134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
