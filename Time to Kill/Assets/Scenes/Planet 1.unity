@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.039215688, b: 0.14117648, a: 1}
+  m_Color: {r: 0, g: 0.16470589, b: 0.46274513, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+  m_Color: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -21902,7 +21902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.039215688, b: 0.14117648, a: 1}
+  m_Color: {r: 0, g: 0.1764706, b: 0.45882356, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -56568,7 +56568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -57385,11 +57385,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 422267158022693231, guid: 153a96ac8e3e7274fbb9ecb418cd31c4, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 298.2943
+      value: 376.034
       objectReference: {fileID: 0}
     - target: {fileID: 422267158022693231, guid: 153a96ac8e3e7274fbb9ecb418cd31c4, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 21.4218
+      value: 60.291
       objectReference: {fileID: 0}
     - target: {fileID: 422267158022693231, guid: 153a96ac8e3e7274fbb9ecb418cd31c4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -57421,11 +57421,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 422267158022693231, guid: 153a96ac8e3e7274fbb9ecb418cd31c4, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -760.8
+      value: -694
       objectReference: {fileID: 0}
     - target: {fileID: 422267158022693231, guid: 153a96ac8e3e7274fbb9ecb418cd31c4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 391.8
+      value: 372.36517
       objectReference: {fileID: 0}
     - target: {fileID: 422267158022693231, guid: 153a96ac8e3e7274fbb9ecb418cd31c4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -57446,6 +57446,22 @@ PrefabInstance:
     - target: {fileID: 422267158617974900, guid: 153a96ac8e3e7274fbb9ecb418cd31c4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422267158639838473, guid: 153a96ac8e3e7274fbb9ecb418cd31c4, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 58.641
+      objectReference: {fileID: 0}
+    - target: {fileID: 422267158639838473, guid: 153a96ac8e3e7274fbb9ecb418cd31c4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60.291
+      objectReference: {fileID: 0}
+    - target: {fileID: 422267158639838473, guid: 153a96ac8e3e7274fbb9ecb418cd31c4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -34.321
+      objectReference: {fileID: 0}
+    - target: {fileID: 422267158639838473, guid: 153a96ac8e3e7274fbb9ecb418cd31c4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0001688
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 153a96ac8e3e7274fbb9ecb418cd31c4, type: 3}
@@ -57822,11 +57838,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8787414119551498763, guid: c877de733b4e89c49b7f8b2deb62712d, type: 3}
       propertyPath: m_Color.b
-      value: 0.14150941
+      value: 0.46274513
       objectReference: {fileID: 0}
     - target: {fileID: 8787414119551498763, guid: c877de733b4e89c49b7f8b2deb62712d, type: 3}
       propertyPath: m_Color.g
-      value: 0.043701444
+      value: 0.15294118
       objectReference: {fileID: 0}
     - target: {fileID: 8787414119551498763, guid: c877de733b4e89c49b7f8b2deb62712d, type: 3}
       propertyPath: m_Color.r
