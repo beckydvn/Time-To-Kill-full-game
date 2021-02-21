@@ -29,6 +29,11 @@ public class OverworldTimer : MonoBehaviour
         isTimer = true;
     }
 
+    public float getTime()
+    {
+        return timeLeft;
+    }
+
     //check the status of the timer (is time up)
     public bool timeUp()
     {

@@ -102,7 +102,7 @@ public class BossFight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(attacking);
+        Debug.Log(overworldTime.getTime());
         if (battleOngoing)
         {
             time += Time.deltaTime;
