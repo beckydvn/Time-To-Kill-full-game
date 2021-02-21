@@ -33,6 +33,23 @@ public class BossFight : MonoBehaviour
     private int rng;
     //number of attacks/defenses combos (all arrays will be the same size)
     int numCombos;
+    //name of boss
+    public string bossName;
+    //is the player in a buffer stage?
+    private bool inBuffer = false;
+    //player health bar
+    public GameObject getPlayerHealthBar;
+    private HealthBar playerHealthBar;
+    //enemy health bar
+    public GameObject getEnemyHealthBar;
+    private HealthBar enemyHealthBar;
+    float playerHealth;
+    float enemyHealth;
+
+    //BASIC ATTACK MOVE
+    private string basicAttack = "AAA";
+    //BASIC DEFENSE MOVE
+    private string basicDefense = "DDD";
 
     //boss-specific data
     public string[] playerAttacks;
@@ -40,57 +57,102 @@ public class BossFight : MonoBehaviour
     public string[] enemyAttacks;
     public string[] enemyDefenses;
 
+    //PERCENTAGE OF DAMAGE DONE/TAKEN BY BASIC MOVES (CHANGES EACH BOSS)
+    public float percentBasic;
+
+    private bool doneTurnEarly = false;
+
     // Start is called before the first frame update
     void Start()
     {
         timer = (BossTimer)getTimer.GetComponent(typeof(BossTimer));
+        playerHealthBar = (HealthBar)getPlayerHealthBar.GetComponent(typeof(HealthBar));
+        enemyHealthBar = (HealthBar)getEnemyHealthBar.GetComponent(typeof(HealthBar));
+        playerHealth = playerHealthBar.getMaxHealth();
+        enemyHealth = enemyHealthBar.getMaxHealth();
         timer.setTimer(speed);
         numCombos = playerAttacks.Length;
- 
+        NextStage();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(combo);
+        Debug.Log(timer.timeUp());
         comboDisplay.text = combo;
-        if(timer.timeUp())
+        //time is up and the buffer has not already been called
+        if(timer.timeUp() || doneTurnEarly)
         {
-            NextStage();
+            if(!inBuffer)
+            {
+                timer.stopTimer();
+                getResults();
+                inBuffer = true;   
+                Invoke("NextStage", 2.5f);
+            }
         }
-
-        
+        else
+        {
+            nextMove.text = bossName + " is preparing " + enemyMove;
+        }
     }
-    private bool checkMove()
+
+    private void getResults()
     {
         if(attacking)
         {
             playerIndex = Array.IndexOf(playerAttacks, combo);
             enemyIndex = Array.IndexOf(enemyDefenses, enemyMove);
+            
+            //deal extra damage based on a time bonus?
+
             if(playerIndex == enemyIndex)
             {
-                Debug.Log("Critical hit!");
-                return true;
+                enemyHealthBar.setHealth(enemyHealthBar.getHealth() - enemyHealth * 0.3f);
+                nextMove.text = "Critical hit!";
+            }
+            else if(combo == basicAttack)
+            {
+                nextMove.text = bossName + " Does not seem fazed...";
+                enemyHealthBar.setHealth(enemyHealthBar.getHealth() -  enemyHealth * 0.1f);
+            }
+            else
+            {
+   
+                nextMove.text = bossName + " Admires the lovely weather.";
             }
         }
         else
         {
             playerIndex = Array.IndexOf(playerDefenses, combo);
             enemyIndex = Array.IndexOf(enemyAttacks, enemyMove);
+            
+            
             if (playerIndex == enemyIndex)
             {
-                Debug.Log("Critical defense!");
-                return true;
+                nextMove.text = bossName + " missed!";
+            }
+            else if (combo == basicDefense)
+            {
+                nextMove.text = "You start to drip sweat...";
+                playerHealthBar.setHealth(playerHealthBar.getHealth() - playerHealth * 0.1f);
+            }
+            else
+            {
+                nextMove.text = "Critical damage taken!";
+                playerHealthBar.setHealth(playerHealthBar.getHealth() - playerHealth * 0.3f);
             }
         }
-        return false;
     }
+
+    //randomnly generate next stage
     private void NextStage()
     {
-        checkMove();
         timer.setTimer(speed);
         attacking = !attacking;
         combo = "";
+        inBuffer = false;
+        doneTurnEarly = false;
         if(attacking)
         {
             rng = UnityEngine.Random.Range(0, numCombos);
@@ -113,6 +175,15 @@ public class BossFight : MonoBehaviour
                     combo += letter;
                 } 
             }
+        }
+        if (Event.current.Equals(Event.KeyboardEvent("return")))
+        {
+            //can only end turn early if you are attacking
+            if(attacking)
+            {
+                doneTurnEarly = true;
+            }
+            
         }
     }
 }

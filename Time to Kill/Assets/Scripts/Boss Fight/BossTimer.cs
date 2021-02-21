@@ -34,6 +34,12 @@ public class BossTimer : MonoBehaviour
     {
         return !isTimer;
     }
+
+    public void stopTimer()
+    {
+        isTimer = false;
+    }
+
     // Update is called once per frame
     void Update()
     {
