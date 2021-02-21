@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BossTimer : MonoBehaviour
+public class OverworldTimer : MonoBehaviour
 {
     public Text timerText;
 
@@ -21,13 +21,13 @@ public class BossTimer : MonoBehaviour
     {
         TimeSpan r = TimeSpan.FromSeconds(t);
 
-        timerText.text = r.ToString("ss':'ff");
+        timerText.text = r.ToString("ss");
     }
     public void setTimer(float time)
     {
         timeLeft = time;
         isTimer = true;
-    }    
+    }
 
     //check the status of the timer (is time up)
     public bool timeUp()
@@ -48,7 +48,7 @@ public class BossTimer : MonoBehaviour
             if (timeLeft > 0)
             {
                 timeLeft -= Time.deltaTime;
-                displayTime(timeLeft);
+                    displayTime(timeLeft);
             }
             else
             {
