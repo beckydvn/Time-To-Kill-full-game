@@ -29,7 +29,7 @@ public class playerMovement : MonoBehaviour
         v = Input.GetAxisRaw("Vertical");
 
         
-        /*
+        
         //find total velocity of char
         var vel = rigidbody.velocity;
 
@@ -46,7 +46,7 @@ public class playerMovement : MonoBehaviour
 
         //set speed so tranition happens when character moves
         animator.SetFloat("Speed", vel.sqrMagnitude);
-        */
+        
         
     }
 
