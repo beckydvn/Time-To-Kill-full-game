@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ActivateInventory : MonoBehaviour
 {
+    //get the journal so we can know if the inventory is currently activated
+    public GameObject getJournal;
+    private ActivateJournal journal;
     //get inventory gameobjects
     public GameObject inventoryCanvas;
     //activation status
@@ -17,6 +20,7 @@ public class ActivateInventory : MonoBehaviour
     void Start()
     {
         inventoryCanvas.gameObject.SetActive(false);
+        journal = (ActivateJournal)getJournal.GetComponent(typeof(ActivateJournal));
     }
 
     public bool getInvStatus()
@@ -28,11 +32,15 @@ public class ActivateInventory : MonoBehaviour
     {
         if (Event.current.Equals(Event.KeyboardEvent("I")))
         {
-            activationStatus = !activationStatus;
-            inventoryCanvas.gameObject.SetActive(activationStatus);
+            if(!journal.getJournalStatus())
+            {
+                activationStatus = !activationStatus;
+                inventoryCanvas.gameObject.SetActive(activationStatus);
 
-            //get the player's position to freeze it
-            freeze = player.transform.position;
+                //get the player's position to freeze it
+                freeze = player.transform.position;
+            }
+
         }
         if(activationStatus)
         {
