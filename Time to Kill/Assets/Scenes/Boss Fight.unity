@@ -886,8 +886,8 @@ MonoBehaviour:
   - AONE
   - ATWO
   playerDefenses:
-  - DONE
-  - DTWO
+  - DEFONE
+  - DEFTWO
   enemyAttacks:
   - attack1
   - attack2

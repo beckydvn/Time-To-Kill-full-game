@@ -9,7 +9,7 @@ public class countdownTimer : MonoBehaviour
     public Text timerText;
 
     private bool isTimer;
-    private float timeLeft = 30;
+    private float timeLeft = 300;
 
     // Start is called before the first frame update
     void Start()

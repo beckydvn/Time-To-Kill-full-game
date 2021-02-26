@@ -8034,7 +8034,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 879383871040530331, guid: 979533a02d8d6d34b8c2c26c31010f8f, type: 3}
       propertyPath: sentences.Array.data[3]
-      value: new objective added to the journal (tab)
+      value: '[objective added to the journal (tab)]'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 979533a02d8d6d34b8c2c26c31010f8f, type: 3}
