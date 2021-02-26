@@ -42,6 +42,8 @@ public class ObjectInteraction : MonoBehaviour
     private Vector2 inventoryPos;
     //inventory object to get the row/col number
     public NavigateInventory invScript;
+    //animator of the player
+    private Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -49,16 +51,16 @@ public class ObjectInteraction : MonoBehaviour
         //deactivate the text display and the background initially
         textDisplay.gameObject.SetActive(false);
         dialogueBackground.gameObject.SetActive(false);
-
         //instantiate object grid
         objectGrid = gridSetup.GetComponent<GridLayoutGroup>();
-
+        //get animator
+        anim = player.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //if the player is pressing F and colliding with the object
+        //if the player is pressing J and colliding with the object
         if (Input.GetKeyDown(KeyCode.J) && colliding)
         {
             //if no text has been read yet
@@ -129,13 +131,15 @@ public class ObjectInteraction : MonoBehaviour
             //player can interact with it again
             index = 0;
         }
+        anim.enabled = true;
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Player") && other.gameObject.transform.position.y < transform.position.y)
+        if (other.gameObject.CompareTag("Player"))
         {
             colliding = true;
+            anim.enabled = false;
         }
     }
 
@@ -144,6 +148,7 @@ public class ObjectInteraction : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             colliding = false;
+            anim.enabled = true;
         }
     }
 }

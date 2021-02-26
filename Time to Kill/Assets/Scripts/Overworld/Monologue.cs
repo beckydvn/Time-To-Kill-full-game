@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
-public class Dialog : MonoBehaviour
+public class Monologue : MonoBehaviour
 {
     //is the dialog activated?
     private bool activateDialog;
@@ -30,27 +30,31 @@ public class Dialog : MonoBehaviour
         //deactivate the text display and the background initially
         textDisplay.gameObject.SetActive(false);
         dialogueBackground.gameObject.SetActive(false);
-        //get animator
         anim = player.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //if the player is pressing J and colliding with the object
-        if(Input.GetKeyDown(KeyCode.J) && colliding)
-        {  
             //if no text has been read yet
-            if(index == 0)
+            if (colliding)
             {
-                //activate the dialogue stage, show the text + background, and retrieve the player's position
-                activateDialog = true;
-                textDisplay.gameObject.SetActive(true);
-                dialogueBackground.gameObject.SetActive(true);
-                freeze = player.transform.position;
-            }
-            //read the next sentence
-            UpdateText();            
+                if(index == 0)
+                {
+                    //activate the dialogue stage, show the text + background, and retrieve the player's position
+                    activateDialog = true;
+                    textDisplay.gameObject.SetActive(true);
+                    dialogueBackground.gameObject.SetActive(true);
+                    freeze = player.transform.position;
+                    //read the next sentence
+                    UpdateText();
+                }
+                if (Input.GetKeyDown(KeyCode.J))
+                {
+                    //read the next sentence
+                    UpdateText();
+                }
+
         }
         //while the dialog is activated, freeze the player's position
         if (activateDialog)
@@ -62,7 +66,7 @@ public class Dialog : MonoBehaviour
     private void UpdateText()
     {
         //read the next sentences
-        if(index < sentences.Length)
+        if (index < sentences.Length)
         {
             textDisplay.text = "";
             textDisplay.text += sentences[index];
@@ -81,11 +85,11 @@ public class Dialog : MonoBehaviour
         textDisplay.gameObject.SetActive(false);
         dialogueBackground.gameObject.SetActive(false);
         activateDialog = false;
-        //reset to 0 so the player can redo the interaction if they want!
-        index = 0;
+        Destroy(gameObject);
         anim.enabled = true;
     }
-    private void OnCollisionEnter2D(Collision2D other)
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
@@ -93,13 +97,11 @@ public class Dialog : MonoBehaviour
             anim.enabled = false;
         }
     }
-
-    private void OnCollisionExit2D(Collision2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             colliding = false;
-            anim.enabled = true;
         }
     }
 }

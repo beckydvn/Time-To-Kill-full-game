@@ -7,7 +7,7 @@ public class mainMenu : MonoBehaviour
 {
     public void pressPlay()
     {
-        SceneManager.LoadScene("Planet 1");
+        SceneManager.LoadScene("Player Interior");
     }
 
     public void quit()

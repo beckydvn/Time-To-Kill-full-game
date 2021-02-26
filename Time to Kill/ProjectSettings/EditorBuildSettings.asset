@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menu Start.unity
+    guid: a8a5aaaa5b4ab4f4ead4e3151619a52a
+  - enabled: 1
+    path: Assets/Scenes/Player Interior.unity
+    guid: cddcdc6c5dab3bc47aaf0430f6de9e10
   - enabled: 1
     path: Assets/Scenes/Planet 1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 15c7a6f5b2f1b9641b313f62048507ee
+  - enabled: 1
+    path: Assets/Scenes/Boss Fight.unity
+    guid: 48e376f026a298846aebb162c7044164
   m_configObjects: {}
