@@ -23,6 +23,13 @@ public class Monologue : MonoBehaviour
     public CanvasRenderer dialogueBackground;
     //animator of the player
     private Animator anim;
+    //does this monologue change the objective?
+    public bool changeObjective;
+    //optional objective change
+    public string objectiveChange = "";
+    //get the journal
+    public GameObject getJournal;
+    private UpdateJournal updateJournal;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +38,7 @@ public class Monologue : MonoBehaviour
         textDisplay.gameObject.SetActive(false);
         dialogueBackground.gameObject.SetActive(false);
         anim = player.GetComponent<Animator>();
+        updateJournal = (UpdateJournal)getJournal.GetComponent(typeof(UpdateJournal));
     }
 
     // Update is called once per frame
@@ -85,8 +93,13 @@ public class Monologue : MonoBehaviour
         textDisplay.gameObject.SetActive(false);
         dialogueBackground.gameObject.SetActive(false);
         activateDialog = false;
-        Destroy(gameObject);
         anim.enabled = true;
+        if(changeObjective)
+        {
+            updateJournal.setObjectiveText(objectiveChange);
+        }
+        Destroy(gameObject);
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)

@@ -428,6 +428,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 966436520499720045, guid: 9531b50829137e046b843f630fd900b2, type: 3}
   m_PrefabInstance: {fileID: 478620248}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &478620255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478620249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 555e3b795bf3e8d43af8c8a37236bbfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  journalObjectiveText: {fileID: 1214696673}
+  journalPlanetText: {fileID: 1332712767}
 --- !u!1001 &935901637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -558,6 +572,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2685981117833014501, guid: cc3cedc29f85f324f9551fb77f4e350d, type: 3}
   m_PrefabInstance: {fileID: 1674697562}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1214696673 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3939810883010362798, guid: 9531b50829137e046b843f630fd900b2, type: 3}
+  m_PrefabInstance: {fileID: 478620248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1298765263
 GameObject:
   m_ObjectHideFlags: 0
@@ -2856,6 +2881,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1332712767 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 966436520367467821, guid: 9531b50829137e046b843f630fd900b2, type: 3}
+  m_PrefabInstance: {fileID: 478620248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1425048993 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2202505837933438410, guid: 83e3110162a62b34da9778c38284a387, type: 3}
@@ -7965,12 +8001,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1065058089}
     - target: {fileID: 879383871040530331, guid: 979533a02d8d6d34b8c2c26c31010f8f, type: 3}
+      propertyPath: getJournal
+      value: 
+      objectReference: {fileID: 478620249}
+    - target: {fileID: 879383871040530331, guid: 979533a02d8d6d34b8c2c26c31010f8f, type: 3}
       propertyPath: textDisplay
       value: 
       objectReference: {fileID: 362601859}
     - target: {fileID: 879383871040530331, guid: 979533a02d8d6d34b8c2c26c31010f8f, type: 3}
+      propertyPath: changeObjective
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 879383871040530331, guid: 979533a02d8d6d34b8c2c26c31010f8f, type: 3}
+      propertyPath: objectiveChange
+      value: Get to work. (Work is directly north of your house).
+      objectReference: {fileID: 0}
+    - target: {fileID: 879383871040530331, guid: 979533a02d8d6d34b8c2c26c31010f8f, type: 3}
       propertyPath: dialogueBackground
       value: 
       objectReference: {fileID: 273047992}
+    - target: {fileID: 879383871040530331, guid: 979533a02d8d6d34b8c2c26c31010f8f, type: 3}
+      propertyPath: sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 879383871040530331, guid: 979533a02d8d6d34b8c2c26c31010f8f, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: i slept in... i'm late for work!
+      objectReference: {fileID: 0}
+    - target: {fileID: 879383871040530331, guid: 979533a02d8d6d34b8c2c26c31010f8f, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: and we were supposed to be building a new ship today...
+      objectReference: {fileID: 0}
+    - target: {fileID: 879383871040530331, guid: 979533a02d8d6d34b8c2c26c31010f8f, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: new objective added to the journal (tab)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 979533a02d8d6d34b8c2c26c31010f8f, type: 3}

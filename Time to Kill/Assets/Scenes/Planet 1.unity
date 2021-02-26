@@ -636,6 +636,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2263643759223818038, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.6988306
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263643759223818038, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -18.173294
+      objectReference: {fileID: 0}
     - target: {fileID: 2405586150823949082, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
       propertyPath: m_Name
       value: Room 6
@@ -21124,7 +21132,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: 0.1, z: -10}
+  m_LocalPosition: {x: -1.3054771, y: 0.588202, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 354755889}
@@ -21570,6 +21578,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: CM vcam5
       objectReference: {fileID: 0}
+    - target: {fileID: 2263643759223818038, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.6988306
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263643759223818038, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -18.173294
+      objectReference: {fileID: 0}
     - target: {fileID: 2405586150823949082, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
       propertyPath: m_Name
       value: Room 5
@@ -21742,6 +21758,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: CM vcam3
       objectReference: {fileID: 0}
+    - target: {fileID: 2263643759223818038, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.6988306
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263643759223818038, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -18.173294
+      objectReference: {fileID: 0}
     - target: {fileID: 2405586150823949082, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
       propertyPath: m_Name
       value: Room 3
@@ -21849,6 +21873,14 @@ PrefabInstance:
     - target: {fileID: 1878852520010428725, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
       propertyPath: m_Name
       value: CM vcam4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263643759223818038, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.6988306
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263643759223818038, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -18.173294
       objectReference: {fileID: 0}
     - target: {fileID: 2405586150823949082, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
       propertyPath: m_Name
@@ -55384,6 +55416,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: CM vcam2
       objectReference: {fileID: 0}
+    - target: {fileID: 2263643759223818038, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.6988306
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263643759223818038, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -18.173294
+      objectReference: {fileID: 0}
     - target: {fileID: 2405586150823949082, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
       propertyPath: m_Name
       value: Room 2
@@ -55880,6 +55920,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2263643759223818038, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.6988306
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263643759223818038, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -18.173294
+      objectReference: {fileID: 0}
     - target: {fileID: 2405586150823949082, guid: 92fbac5858ce6974cb4fccd2ef4b2a66, type: 3}
       propertyPath: m_Name
       value: Room
@@ -56052,11 +56100,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2685981117833014505, guid: cc3cedc29f85f324f9551fb77f4e350d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.01
+      value: -9.53
       objectReference: {fileID: 0}
     - target: {fileID: 2685981117833014505, guid: cc3cedc29f85f324f9551fb77f4e350d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 0.46
       objectReference: {fileID: 0}
     - target: {fileID: 2685981117833014505, guid: cc3cedc29f85f324f9551fb77f4e350d, type: 3}
       propertyPath: m_LocalPosition.z
