@@ -15,11 +15,14 @@ public class ActivateInventory : MonoBehaviour
     private Vector2 freeze;
     //player (needs to freeze the player transform)
     public GameObject player;
+    //alpha of canvas to be hidden
+    private CanvasGroup canvasAlpha;
 
     // Start is called before the first frame update
     void Start()
     {
-        inventoryCanvas.gameObject.SetActive(false);
+        canvasAlpha = inventoryCanvas.GetComponent<CanvasGroup>();
+        canvasAlpha.alpha = 0;
         journal = (ActivateJournal)getJournal.GetComponent(typeof(ActivateJournal));
     }
 
@@ -35,8 +38,14 @@ public class ActivateInventory : MonoBehaviour
             if(!journal.getJournalStatus())
             {
                 activationStatus = !activationStatus;
-                inventoryCanvas.gameObject.SetActive(activationStatus);
-
+                if (activationStatus)
+                {
+                    canvasAlpha.alpha = 1;
+                }
+                else
+                {
+                    canvasAlpha.alpha = 0;
+                }
                 //get the player's position to freeze it
                 freeze = player.transform.position;
             }

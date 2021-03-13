@@ -285,7 +285,8 @@ GameObject:
   - component: {fileID: 966436520499720050}
   - component: {fileID: 966436520499720051}
   - component: {fileID: 966436520499720044}
-  - component: {fileID: 966436520499720047}
+  - component: {fileID: 478620255}
+  - component: {fileID: 733461336165079306}
   m_Layer: 5
   m_Name: Journal
   m_TagString: Untagged
@@ -374,21 +375,32 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &966436520499720047
+--- !u!114 &478620255
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966436520499720045}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db414f1dd8a0bc74293d252297aeaf92, type: 3}
+  m_Script: {fileID: 11500000, guid: 555e3b795bf3e8d43af8c8a37236bbfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  getInv: {fileID: 0}
-  journalCanvas: {fileID: 966436520499720045}
-  player: {fileID: 0}
+  journalObjectiveText: {fileID: 3939810883010362798}
+  journalPlanetText: {fileID: 966436520367467821}
+--- !u!225 &733461336165079306
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966436520499720045}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &966436520694155912
 GameObject:
   m_ObjectHideFlags: 0

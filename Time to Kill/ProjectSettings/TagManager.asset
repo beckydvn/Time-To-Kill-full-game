@@ -6,6 +6,7 @@ TagManager:
   tags:
   - UI Inventory Object
   - Spaghetti
+  - Game Manager
   layers:
   - Default
   - TransparentFX
