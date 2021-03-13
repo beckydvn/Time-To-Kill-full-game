@@ -5,10 +5,8 @@ using UnityEngine;
 public class ActivateInventory : MonoBehaviour
 {
     //get the journal so we can know if the inventory is currently activated
-    public GameObject getJournal;
+    private GameObject getJournal;
     private ActivateJournal journal;
-    //get inventory gameobjects
-    public GameObject inventoryCanvas;
     //activation status
     private bool activationStatus = false;
     //original position of the player
@@ -21,9 +19,17 @@ public class ActivateInventory : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        canvasAlpha = inventoryCanvas.GetComponent<CanvasGroup>();
+        DontDestroyOnLoad(transform.gameObject);
+        canvasAlpha = transform.gameObject.GetComponent<CanvasGroup>();
         canvasAlpha.alpha = 0;
+        instantiateNew();
+    }
+
+    void instantiateNew()
+    {
+        getJournal = GameObject.FindGameObjectWithTag("Journal");
         journal = (ActivateJournal)getJournal.GetComponent(typeof(ActivateJournal));
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     public bool getInvStatus()
@@ -35,6 +41,10 @@ public class ActivateInventory : MonoBehaviour
     {
         if (Event.current.Equals(Event.KeyboardEvent("I")))
         {
+            if(journal == null || player == null)
+            {
+                instantiateNew();
+            }
             if(!journal.getJournalStatus())
             {
                 activationStatus = !activationStatus;

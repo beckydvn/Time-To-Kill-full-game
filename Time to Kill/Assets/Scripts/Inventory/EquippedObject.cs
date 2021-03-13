@@ -14,7 +14,7 @@ public class EquippedObject : MonoBehaviour
     //image in the slot
     private Image image;
     //inventory (to get status)
-    public GameObject inventoryStatus;
+    private GameObject inventoryStatus;
     private ActivateInventory accessInv;
     private bool inventoryActivated;
     //position of the corresponding UI object
@@ -28,6 +28,7 @@ public class EquippedObject : MonoBehaviour
         equippedSprite = transform.gameObject.GetComponent<Image>();
         image = GetComponent<Image>();
         image.enabled = false;
+        inventoryStatus = GameObject.FindGameObjectWithTag("Inventory");
         accessInv = inventoryStatus.GetComponent<ActivateInventory>();
     }
 

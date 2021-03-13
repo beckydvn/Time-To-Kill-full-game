@@ -44,6 +44,7 @@ public class UIObject : MonoBehaviour
         uiSprite = transform.gameObject.GetComponent<Image>();
         access = (EquippedObject)objToEquip.GetComponent(typeof(EquippedObject));
         overlayText.text = "";
+        DontDestroyOnLoad(transform.gameObject);
     }
     // Update is called once per frame
     void Update()

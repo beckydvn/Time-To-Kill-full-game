@@ -287,9 +287,10 @@ GameObject:
   - component: {fileID: 966436520499720044}
   - component: {fileID: 478620255}
   - component: {fileID: 733461336165079306}
+  - component: {fileID: 5198870683780437187}
   m_Layer: 5
   m_Name: Journal
-  m_TagString: Untagged
+  m_TagString: Journal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -401,6 +402,20 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &5198870683780437187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966436520499720045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db414f1dd8a0bc74293d252297aeaf92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getInv: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1 &966436520694155912
 GameObject:
   m_ObjectHideFlags: 0
