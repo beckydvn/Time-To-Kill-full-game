@@ -9,6 +9,7 @@ TagManager:
   - Game Manager
   - Journal
   - Inventory
+  - Timer
   layers:
   - Default
   - TransparentFX

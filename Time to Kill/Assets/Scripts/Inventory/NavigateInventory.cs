@@ -32,10 +32,16 @@ public class NavigateInventory : MonoBehaviour
     public Sprite buttonUp;
     //has the selected slot changed?
     private bool changedSelected;
+    //get inventory (is the inventory active?)
+    private GameObject getInv;
+    private ActivateInventory inventory;
 
     // Start is called before the first frame update
     void Start()
     {
+        getInv = GameObject.FindGameObjectWithTag("Inventory");
+        inventory = (ActivateInventory)getInv.GetComponent(typeof(ActivateInventory));
+
         //clone the slots
         GameObject slotclone;
         //get the grid component
@@ -70,12 +76,20 @@ public class NavigateInventory : MonoBehaviour
     {
         return cols;
     }
+    public Vector2 getPrevSelected()
+    {
+        return prevSelected;
+    }
     public Vector2 getSelected()
     {
         return selected;
     }
+    public void setSelected(Vector2 set)
+    {
+        selected = set;
+    }
 
-    private void ChangeSprite(Vector2 prevSelected, Vector2 selected)
+    public void ChangeSprite(Vector2 prevSelected, Vector2 selected)
     {
         //unselect previous slot and select current slot (graphically)
         Image unselect = slots[(int)prevSelected.x, (int)prevSelected.y].GetComponent<Image>();
@@ -87,49 +101,47 @@ public class NavigateInventory : MonoBehaviour
     private void OnGUI()
     {
         prevSelected = new Vector2((int)selected.x, (int)selected.y);
+        if(inventory.getInvStatus())
+        {
+            if (Event.current.Equals(Event.KeyboardEvent(up)))
+            {
+                if (selected.x > 0)
+                {
+                    changedSelected = true;     
+                    selected.x -= 1;
+                }
+            }
+            if (Event.current.Equals(Event.KeyboardEvent(down)))
+            {
+                if (selected.x < rows - 1)
+                {
+                    changedSelected = true;
+                    selected.x += 1;
+                }
+            }
+            if (Event.current.Equals(Event.KeyboardEvent(right)))
+            {
+                if (selected.y < cols - 1)
+                {
+                    changedSelected = true;
+                    selected.y += 1;
+                }
+            }
+            if (Event.current.Equals(Event.KeyboardEvent(left)))
+            {
+                if (selected.y > 0)
+                {
+                    changedSelected = true;
+                    selected.y -= 1;
+                }
+            }
 
-        if (Event.current.Equals(Event.KeyboardEvent(up)))
-        {
-            //isFull[(int)selected.x, (int)selected.y] = false;
-            if (selected.x > 0)
+            if(changedSelected)
             {
-                changedSelected = true;     
-                selected.x -= 1;
+                ChangeSprite(prevSelected, selected);
             }
-        }
-        if (Event.current.Equals(Event.KeyboardEvent(down)))
-        {
-            //isFull[(int)selected.x, (int)selected.y] = false;
-            if (selected.x < rows - 1)
-            {
-                changedSelected = true;
-                selected.x += 1;
-            }
-        }
-        if (Event.current.Equals(Event.KeyboardEvent(right)))
-        {
-            //isFull[(int)selected.x, (int)selected.y] = false;
-            if (selected.y < cols - 1)
-            {
-                changedSelected = true;
-                selected.y += 1;
-            }
-        }
-        if (Event.current.Equals(Event.KeyboardEvent(left)))
-        {
-            //isFull[(int)selected.x, (int)selected.y] = false;
-            if (selected.y > 0)
-            {
-                changedSelected = true;
-                selected.y -= 1;
-            }
-        }
-
-        if(changedSelected)
-        {
-            ChangeSprite(prevSelected, selected);
         }
 
-        //isFull[(int)selected.x, (int)selected.y] = true;
+
     }
 }

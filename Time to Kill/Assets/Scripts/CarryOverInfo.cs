@@ -7,6 +7,7 @@ public class CarryOverInfo : MonoBehaviour
 {
     private string journalObjectiveText;
     private string journalPlanetText;
+    private float timeLeft = 300;
 
     private void Start()
     {
@@ -21,7 +22,14 @@ public class CarryOverInfo : MonoBehaviour
     {
         journalPlanetText = set;
     }
-
+    public void saveTimeLeft(float set)
+    {
+        timeLeft = set;
+    }
+    public float getTimeLeft()
+    {
+        return timeLeft;
+    }
     public string getObjectiveText()
     {
         return journalObjectiveText;

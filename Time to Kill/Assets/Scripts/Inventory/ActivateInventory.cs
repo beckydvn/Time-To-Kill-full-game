@@ -15,6 +15,9 @@ public class ActivateInventory : MonoBehaviour
     public GameObject player;
     //alpha of canvas to be hidden
     private CanvasGroup canvasAlpha;
+    //get inventory grid
+    public GameObject getNav;
+    private NavigateInventory nav;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +33,7 @@ public class ActivateInventory : MonoBehaviour
         getJournal = GameObject.FindGameObjectWithTag("Journal");
         journal = (ActivateJournal)getJournal.GetComponent(typeof(ActivateJournal));
         player = GameObject.FindGameObjectWithTag("Player");
+        nav = (NavigateInventory)getNav.GetComponent(typeof(NavigateInventory));
     }
 
     public bool getInvStatus()
@@ -49,13 +53,15 @@ public class ActivateInventory : MonoBehaviour
             {
                 activationStatus = !activationStatus;
                 if (activationStatus)
-                {
+                {   
                     canvasAlpha.alpha = 1;
                 }
                 else
                 {
                     canvasAlpha.alpha = 0;
                 }
+                nav.setSelected(new Vector2(0, 0));
+                nav.ChangeSprite(nav.getPrevSelected(), new Vector2(0, 0));
                 //get the player's position to freeze it
                 freeze = player.transform.position;
             }

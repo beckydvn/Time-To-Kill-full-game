@@ -11,9 +11,15 @@ public class countdownTimer : MonoBehaviour
     private bool isTimer;
     private float timeLeft = 300;
 
+    private GameObject getGameManager;
+    private CarryOverInfo gameManager;
+
     // Start is called before the first frame update
     void Start()
     {
+        getGameManager = GameObject.FindGameObjectWithTag("Game Manager");
+        gameManager = (CarryOverInfo)getGameManager.GetComponent(typeof(CarryOverInfo));
+        timeLeft = gameManager.getTimeLeft();
         isTimer = true;
     }
 
@@ -23,6 +29,12 @@ public class countdownTimer : MonoBehaviour
 
         timerText.text = r.ToString("mm':'ss':'ff");
     }
+
+    public float getTimeLeft()
+    {
+        return timeLeft;
+    }
+
     // Update is called once per frame
     void Update()
     {
