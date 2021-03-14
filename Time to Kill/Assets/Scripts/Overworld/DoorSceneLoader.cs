@@ -10,6 +10,9 @@ public class DoorSceneLoader : MonoBehaviour
     private CarryOverInfo gameManager;
     private GameObject getTimer;
     private countdownTimer timer;
+
+
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -20,8 +23,6 @@ public class DoorSceneLoader : MonoBehaviour
             timer = (countdownTimer)getTimer.GetComponent(typeof(countdownTimer));
             gameManager.saveTimeLeft(timer.getTimeLeft());
             SceneManager.LoadScene(nextScene);
-            Destroy(gameObject);
         }
-        
     }
 }

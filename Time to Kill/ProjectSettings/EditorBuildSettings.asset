@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Astronaut Interior.unity
     guid: 1903ce1826170384f9202ecb81cba5fa
+  - enabled: 1
+    path: Assets/Scenes/Planet 1 From Astronaut.unity
+    guid: d90173bae422ecc49bbefd95da38f2e0
   m_configObjects: {}

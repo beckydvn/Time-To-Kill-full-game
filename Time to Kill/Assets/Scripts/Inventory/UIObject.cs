@@ -6,15 +6,13 @@ using UnityEngine.UI;
 
 public class UIObject : MonoBehaviour
 {
-    //object info
-    public string[] info;
     //is the object selected?
     private Vector2 objectSlotSelected;
     //slot selected
     private GameObject getSlotSelected;
     private NavigateInventory slotSelected;
     //corresponding object
-    public ObjectInteraction obj;
+    public CollectableObject obj;
     //position of the object in the grid
     private Vector2 pos = new Vector2(-1, -1);
     //is this object selected?

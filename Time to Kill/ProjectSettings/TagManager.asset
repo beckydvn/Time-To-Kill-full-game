@@ -11,11 +11,14 @@ TagManager:
   - Inventory
   - Timer
   - Grid Sprite Setup
-  - Inventory Grid
   - Equipped Object
   - Grid Slot Setup
   - UI Object Info Text
   - Time Bonus
+  - Sandwich
+  - Fridge
+  - Cemetery NPC
+  - New Pos
   layers:
   - Default
   - TransparentFX

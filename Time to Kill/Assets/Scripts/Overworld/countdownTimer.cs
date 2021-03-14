@@ -43,6 +43,7 @@ public class countdownTimer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(gameManager.getCollected().ToArray().ToString());
         if (isTimer)
         {
             if(timeLeft > 0)
