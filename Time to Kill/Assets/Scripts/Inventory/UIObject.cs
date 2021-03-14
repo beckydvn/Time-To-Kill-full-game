@@ -36,6 +36,13 @@ public class UIObject : MonoBehaviour
     //is the corresponding object equipped?
     private bool equipped = false;
 
+    //is the object equippable?
+    private bool equippable;
+
+    //get the inventory
+    private GameObject getInv;
+    private ActivateInventory inv;
+
     public TextMeshProUGUI overlayText;
     //keep track if an object was used
     private bool used = false;
@@ -45,8 +52,10 @@ public class UIObject : MonoBehaviour
     }
     private void Start()
     {
-        getSlotSelected = GameObject.FindGameObjectWithTag("Inventory Grid");
+        getSlotSelected = GameObject.FindGameObjectWithTag("Grid Slot Setup");
         slotSelected = (NavigateInventory)getSlotSelected.GetComponent(typeof(NavigateInventory));
+        getInv = GameObject.FindGameObjectWithTag("Inventory");
+        inv = (ActivateInventory)getInv.GetComponent(typeof(ActivateInventory));
         uiSprite = transform.gameObject.GetComponent<Image>();
         getAccess = GameObject.FindGameObjectWithTag("Equipped Object");
         access = (EquippedObject)getAccess.GetComponent(typeof(EquippedObject));
@@ -98,14 +107,18 @@ public class UIObject : MonoBehaviour
     {
         uiObjTag = set;
     }
-
+    public void setEquippable(bool set)
+    {
+        equippable = set;
+    }
 
     private void OnGUI()
     {
         if (Event.current.Equals(Event.KeyboardEvent("J")))
         {
-            //if object is selected and NO object is currently equipped AND this object was not previously used
-            if(isSelected && !access.getEquipped() && !used)
+            //if object is selected and NO object is currently equipped AND this object was not previously used AND
+            //this object is equippable AND the inventory is open
+            if(isSelected && !access.getEquipped() && !used && equippable && inv.getInvStatus())
             {
                 access.setEquippedTag(uiObjTag);
                 access.setSprite(uiSprite.sprite);

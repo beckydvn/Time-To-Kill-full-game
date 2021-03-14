@@ -15,6 +15,7 @@ TagManager:
   - Equipped Object
   - Grid Slot Setup
   - UI Object Info Text
+  - Time Bonus
   layers:
   - Default
   - TransparentFX

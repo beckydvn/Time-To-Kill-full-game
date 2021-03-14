@@ -144,6 +144,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5259466862645347320}
     m_Modifications:
+    - target: {fileID: 5708427063012585131, guid: a35bfcb168e321d4c906033d09cff24a, type: 3}
+      propertyPath: m_TagString
+      value: Timer
+      objectReference: {fileID: 0}
     - target: {fileID: 5708427063193397144, guid: a35bfcb168e321d4c906033d09cff24a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

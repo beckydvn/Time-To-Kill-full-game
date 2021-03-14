@@ -22,6 +22,10 @@ public class EquippedObject : MonoBehaviour
     //has the object been used?
     private bool used = false;
 
+    //timer for time bonus
+    private GameObject getTimer;
+    private countdownTimer timer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +40,7 @@ public class EquippedObject : MonoBehaviour
     void Update()
     {
         inventoryActivated = accessInv.getInvStatus();
+        Debug.Log(equippedTag);
     }
 
     public bool getUsed()
@@ -52,8 +57,19 @@ public class EquippedObject : MonoBehaviour
         //player uses the equipped item when the inventory is not activated
         if (Event.current.Equals(Event.KeyboardEvent("U")))
         {
-            UnEquip();
             used = true;
+            switch(equippedTag)
+            {
+                case "Time Bonus":
+                    {
+                        getTimer = GameObject.FindGameObjectWithTag("Timer");
+                        timer = (countdownTimer)getTimer.GetComponent(typeof(countdownTimer));
+                        timer.setTimeLeft(timer.getTimeLeft() + 20);
+                        break;
+                    }
+
+            }
+            UnEquip();
         }
         //player unequips the item
         if (Event.current.Equals(Event.KeyboardEvent("X")))
@@ -78,12 +94,6 @@ public class EquippedObject : MonoBehaviour
         image.enabled = true;
         isEquipped = true;
         used = false;
-        //call the setup functions
-        //find the UI object with the corresponding position
-        //instantiate object with the UI obj as its parent
-        //Overlay "equipped"
-        //used or equipped objects cannot be equipped; send bool to UI object
-        //prob easier to do most of this stuff in UI object update
     }
 
     public void setEquippedTag(string set)

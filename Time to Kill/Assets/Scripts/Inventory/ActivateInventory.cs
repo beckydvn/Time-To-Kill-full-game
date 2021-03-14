@@ -16,7 +16,7 @@ public class ActivateInventory : MonoBehaviour
     //alpha of canvas to be hidden
     private CanvasGroup canvasAlpha;
     //get inventory grid
-    public GameObject getNav;
+    private GameObject getNav;
     private NavigateInventory nav;
 
     // Start is called before the first frame update
@@ -33,6 +33,7 @@ public class ActivateInventory : MonoBehaviour
         getJournal = GameObject.FindGameObjectWithTag("Journal");
         journal = (ActivateJournal)getJournal.GetComponent(typeof(ActivateJournal));
         player = GameObject.FindGameObjectWithTag("Player");
+        getNav = GameObject.FindGameObjectWithTag("Grid Slot Setup");
         nav = (NavigateInventory)getNav.GetComponent(typeof(NavigateInventory));
     }
 

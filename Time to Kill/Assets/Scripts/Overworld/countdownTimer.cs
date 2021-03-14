@@ -30,6 +30,11 @@ public class countdownTimer : MonoBehaviour
         timerText.text = r.ToString("mm':'ss':'ff");
     }
 
+    public void setTimeLeft(float set)
+    {
+        timeLeft = set;
+    }
+
     public float getTimeLeft()
     {
         return timeLeft;

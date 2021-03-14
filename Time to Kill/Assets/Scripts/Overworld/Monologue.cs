@@ -28,7 +28,7 @@ public class Monologue : MonoBehaviour
     //optional objective change
     public string objectiveChange = "";
     //get the journal
-    public GameObject getJournal;
+    private GameObject getJournal;
     private UpdateJournal updateJournal;
 
     // Start is called before the first frame update
@@ -38,6 +38,7 @@ public class Monologue : MonoBehaviour
         textDisplay.gameObject.SetActive(false);
         dialogueBackground.gameObject.SetActive(false);
         anim = player.GetComponent<Animator>();
+        getJournal = GameObject.FindGameObjectWithTag("Journal");
         updateJournal = (UpdateJournal)getJournal.GetComponent(typeof(UpdateJournal));
     }
 

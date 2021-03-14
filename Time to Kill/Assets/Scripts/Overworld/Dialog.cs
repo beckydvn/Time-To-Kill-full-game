@@ -23,6 +23,9 @@ public class Dialog : MonoBehaviour
     public CanvasRenderer dialogueBackground;
     //animator of the player
     private Animator anim;
+    //(optional) object to spawn
+    public GameObject spawnObj;
+    public bool givesObj = false;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +35,7 @@ public class Dialog : MonoBehaviour
         dialogueBackground.gameObject.SetActive(false);
         //get animator
         anim = player.GetComponent<Animator>();
+        spawnObj.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -84,6 +88,10 @@ public class Dialog : MonoBehaviour
         //reset to 0 so the player can redo the interaction if they want!
         index = 0;
         anim.enabled = true;
+        if(givesObj)
+        {
+            spawnObj.SetActive(true);
+        }
     }
     private void OnCollisionEnter2D(Collision2D other)
     {

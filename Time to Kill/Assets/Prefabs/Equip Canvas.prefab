@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.003921569, g: 0.03529412, b: 0.14117648, a: 1}
+  m_Color: {r: 0, g: 0.16470589, b: 0.43137258, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 8744040392285922082}
   - component: {fileID: 8744040392285922081}
   - component: {fileID: 8744040392285922080}
+  - component: {fileID: 20230510451372318}
   m_Layer: 5
   m_Name: Equip Canvas
   m_TagString: Untagged
@@ -311,6 +312,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &20230510451372318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8744040392285922087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c254669452f66b745a3d141e2bcfd453, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8744040392549970283
 GameObject:
   m_ObjectHideFlags: 0

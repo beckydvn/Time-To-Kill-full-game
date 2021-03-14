@@ -28,8 +28,6 @@ public class playerMovement : MonoBehaviour
         h = Input.GetAxisRaw("Horizontal");
         v = Input.GetAxisRaw("Vertical");
 
-        
-        
         //find total velocity of char
         var vel = rigidbody.velocity;
 

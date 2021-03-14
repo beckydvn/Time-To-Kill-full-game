@@ -27,6 +27,8 @@ public class ObjectInteraction : MonoBehaviour
     List<string> inventoryList = new List<string>();
     //is the object COLLECTABLE?
     public bool collectable;
+    //is the object EQUIPPABLE?
+    public bool equippable;
     //grid to add objects to in inventory
     private GameObject gridSetup;
     //layout of the grid
@@ -50,7 +52,7 @@ public class ObjectInteraction : MonoBehaviour
     void Start()
     {
         gridSetup = GameObject.FindGameObjectWithTag("Grid Sprite Setup");
-        getInvScript = GameObject.FindGameObjectWithTag("Inventory Grid");
+        getInvScript = GameObject.FindGameObjectWithTag("Grid Slot Setup");
         invScript = (NavigateInventory)getInvScript.GetComponent(typeof(NavigateInventory));
         //deactivate the text display and the background initially
         textDisplay.gameObject.SetActive(false);
@@ -119,7 +121,6 @@ public class ObjectInteraction : MonoBehaviour
             numSlots = objectGrid.transform.childCount;
             rowPos = numSlots / invScript.getCols();
             colPos = numSlots % invScript.getCols();
-            //Debug.Log(numSlots + " " + rowPos + " " + colPos);
             inventoryPos = new Vector2(rowPos, colPos);
 
             GameObject nextObject = Instantiate(inventoryObject);
@@ -129,6 +130,7 @@ public class ObjectInteraction : MonoBehaviour
             access.SetUp(inventoryPos);
             //pass on tag
             access.setUIObjTag(transform.tag);
+            access.setEquippable(equippable);
         }
         else
         {
