@@ -4,17 +4,33 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Transform target;
+    private GameObject player;
+    private Vector2 pixelPos;
+    private Vector3 newPos;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");        
     }
-
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(target.transform.position.x, target.transform.position.y, transform.position.z);
+        Debug.Log(transform.position.z);
+        pixelPos = new Vector2(player.transform.position.x, player.transform.position.y);
+        pixelPos = PixelPerfectClamp(pixelPos, 18);
+        newPos.x = pixelPos.x;
+        newPos.y = pixelPos.y;
+        newPos.z = -10;
+        transform.position = newPos;
     }
+    //taken from https://www.youtube.com/watch?v=OBulUgXe7rA
+    private Vector2 PixelPerfectClamp(Vector3 moveVector, float pixelsPerUnit)
+    {
+        Vector2 vectorInPixels = new Vector2(
+            Mathf.RoundToInt(moveVector.x * pixelsPerUnit),
+            Mathf.RoundToInt(moveVector.y * pixelsPerUnit));
+        return vectorInPixels / pixelsPerUnit;
+    }
+
 }

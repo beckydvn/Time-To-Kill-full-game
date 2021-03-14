@@ -10,6 +10,11 @@ TagManager:
   - Journal
   - Inventory
   - Timer
+  - Grid Sprite Setup
+  - Inventory Grid
+  - Equipped Object
+  - Grid Slot Setup
+  - UI Object Info Text
   layers:
   - Default
   - TransparentFX

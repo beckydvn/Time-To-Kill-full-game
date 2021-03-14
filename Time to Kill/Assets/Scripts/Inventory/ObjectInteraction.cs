@@ -28,7 +28,7 @@ public class ObjectInteraction : MonoBehaviour
     //is the object COLLECTABLE?
     public bool collectable;
     //grid to add objects to in inventory
-    public GameObject gridSetup;
+    private GameObject gridSetup;
     //layout of the grid
     private GridLayoutGroup objectGrid;
     //object to add to inventory
@@ -38,16 +38,20 @@ public class ObjectInteraction : MonoBehaviour
     //row and column position
     private int rowPos;
     private int colPos;
-    //position of the object in the inventory
+    //position of the object in the invent ory
     private Vector2 inventoryPos;
     //inventory object to get the row/col number
-    public NavigateInventory invScript;
+    private GameObject getInvScript;
+    private NavigateInventory invScript;
     //animator of the player
     private Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
+        gridSetup = GameObject.FindGameObjectWithTag("Grid Sprite Setup");
+        getInvScript = GameObject.FindGameObjectWithTag("Inventory Grid");
+        invScript = (NavigateInventory)getInvScript.GetComponent(typeof(NavigateInventory));
         //deactivate the text display and the background initially
         textDisplay.gameObject.SetActive(false);
         dialogueBackground.gameObject.SetActive(false);

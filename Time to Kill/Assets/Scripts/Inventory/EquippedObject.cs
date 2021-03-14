@@ -35,7 +35,6 @@ public class EquippedObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(equippedTag);
         inventoryActivated = accessInv.getInvStatus();
     }
 

@@ -11,7 +11,8 @@ public class UIObject : MonoBehaviour
     //is the object selected?
     private Vector2 objectSlotSelected;
     //slot selected
-    public NavigateInventory slotSelected;
+    private GameObject getSlotSelected;
+    private NavigateInventory slotSelected;
     //corresponding object
     public ObjectInteraction obj;
     //position of the object in the grid
@@ -19,19 +20,22 @@ public class UIObject : MonoBehaviour
     //is this object selected?
     private bool isSelected;
     //text to display
-    public string infoText;
+    public string infoText;    
     //text display
-    public TextMeshProUGUI textDisplay;
+    private GameObject getTextDisplay;
+    //text display
+    private TextMeshProUGUI textDisplay;
     //object tag!
     private string uiObjTag;
     //equipped object
-    public GameObject objToEquip;
+    //public GameObject objToEquip;
     //image to set the equipped object to
+    private GameObject getAccess;
     private EquippedObject access;
     private Image uiSprite;
     //is the corresponding object equipped?
     private bool equipped = false;
-    //text display
+
     public TextMeshProUGUI overlayText;
     //keep track if an object was used
     private bool used = false;
@@ -41,8 +45,13 @@ public class UIObject : MonoBehaviour
     }
     private void Start()
     {
+        getSlotSelected = GameObject.FindGameObjectWithTag("Inventory Grid");
+        slotSelected = (NavigateInventory)getSlotSelected.GetComponent(typeof(NavigateInventory));
         uiSprite = transform.gameObject.GetComponent<Image>();
-        access = (EquippedObject)objToEquip.GetComponent(typeof(EquippedObject));
+        getAccess = GameObject.FindGameObjectWithTag("Equipped Object");
+        access = (EquippedObject)getAccess.GetComponent(typeof(EquippedObject));
+        getTextDisplay = GameObject.FindGameObjectWithTag("UI Object Info Text");
+        textDisplay = (TextMeshProUGUI)getTextDisplay.GetComponent(typeof(TextMeshProUGUI));
         overlayText.text = "";
         DontDestroyOnLoad(transform.gameObject);
     }
