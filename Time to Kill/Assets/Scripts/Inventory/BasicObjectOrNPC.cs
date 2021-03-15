@@ -23,6 +23,13 @@ public class BasicObjectOrNPC : MonoBehaviour
     public CanvasRenderer dialogueBackground;
     //animator of the player
     private Animator anim;
+    //does this object change the objective?
+    public bool changeObjective;
+    //optional objective change
+    public string objectiveChange = "";
+    //get the journal
+    private GameObject getJournal;
+    private UpdateJournal updateJournal;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +39,8 @@ public class BasicObjectOrNPC : MonoBehaviour
         dialogueBackground.gameObject.SetActive(false);
         //get animator
         anim = player.GetComponent<Animator>();
+        getJournal = GameObject.FindGameObjectWithTag("Journal");
+        updateJournal = (UpdateJournal)getJournal.GetComponent(typeof(UpdateJournal));
     }
 
     // Update is called once per frame
@@ -84,6 +93,10 @@ public class BasicObjectOrNPC : MonoBehaviour
         //reset to 0 so the player can redo the interaction if they want!
         index = 0;
         anim.enabled = true;
+        if (changeObjective)
+        {
+            updateJournal.setObjectiveText(objectiveChange);
+        }
     }
     private void OnCollisionEnter2D(Collision2D other)
     {

@@ -50,6 +50,14 @@ public class CollectableObject : MonoBehaviour
     private GameObject getGameManager;
     private CarryOverInfo gameManager;
 
+    //does this object change the objective?
+    public bool changeObjective;
+    //optional objective change
+    public string objectiveChange = "";
+    //get the journal
+    private GameObject getJournal;
+    private UpdateJournal updateJournal;
+
     // Start is called before the first frame update
     void Start()
     {        
@@ -70,8 +78,9 @@ public class CollectableObject : MonoBehaviour
         //get animator
         anim = player.GetComponent<Animator>();
 
-
-   }
+        getJournal = GameObject.FindGameObjectWithTag("Journal");
+        updateJournal = (UpdateJournal)getJournal.GetComponent(typeof(UpdateJournal));
+    }
 
     // Update is called once per frame
     void Update()
@@ -142,6 +151,11 @@ public class CollectableObject : MonoBehaviour
         anim.enabled = true;
 
         gameManager.newItemCollected(transform.tag);
+
+        if (changeObjective)
+        {
+            updateJournal.setObjectiveText(objectiveChange);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)

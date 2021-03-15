@@ -102,7 +102,6 @@ public class BossFight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(overworldTime.getTime());
         if (battleOngoing)
         {
             time += Time.deltaTime;
@@ -136,20 +135,20 @@ public class BossFight : MonoBehaviour
             }
             if (!inBuffer)
             {
-                nextMove.text = bossName + " is preparing " + enemyMove;
+                if(attacking)
+                {
+                    nextMove.text = bossName + " is preparing to defend himself with " + enemyMove;
+                }
+                else
+                {
+                    nextMove.text = bossName + " is preparing to attack you with " + enemyMove;
+                }    
             }
         }
-
         if (overworldTime.timeUp() && battleOngoing)
         {
             GameOver();
         }
-
-        //else
-        //{
-            //timer.stopTimer();
-        //}
-
     }
 
     private void getResults()
@@ -250,7 +249,7 @@ public class BossFight : MonoBehaviour
             {
                 if(combo.Length < 11)
                 {
-                    combo += letter;
+                    combo += letter.ToString().ToLower();
                 } 
             }
         }

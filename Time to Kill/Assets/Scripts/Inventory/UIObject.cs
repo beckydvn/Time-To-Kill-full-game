@@ -93,9 +93,20 @@ public class UIObject : MonoBehaviour
                 overlayText.text = "EQUIPPED";
             }
         }
-
-       
     }
+
+    public void setUsed()
+    {
+        equipped = false;
+        used = true;
+        overlayText.text = "USED";
+    }
+
+    public string getUIObjTag()
+    {
+        return uiObjTag;
+    }
+
     public bool getObjectSelected()
     {
         return isSelected;

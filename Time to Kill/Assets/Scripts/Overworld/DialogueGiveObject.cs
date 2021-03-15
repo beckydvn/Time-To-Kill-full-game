@@ -23,13 +23,21 @@ public class DialogueGiveObject : MonoBehaviour
     public CanvasRenderer dialogueBackground;
     //animator of the player
     private Animator anim;
-    //(optional) object to spawn
+    //object to spawn
     public GameObject spawnObj;
     private bool objectGiven = false;
 
     //game manager
     private GameObject getGameManager;
     private CarryOverInfo gameManager;
+
+    //does this object change the objective?
+    public bool changeObjective;
+    //optional objective change
+    public string objectiveChange = "";
+    //get the journal
+    private GameObject getJournal;
+    private UpdateJournal updateJournal;
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +54,9 @@ public class DialogueGiveObject : MonoBehaviour
         //get animator
         anim = player.GetComponent<Animator>();
         spawnObj.gameObject.SetActive(false);
+
+        getJournal = GameObject.FindGameObjectWithTag("Journal");
+        updateJournal = (UpdateJournal)getJournal.GetComponent(typeof(UpdateJournal));
     }
 
     // Update is called once per frame
@@ -105,7 +116,11 @@ public class DialogueGiveObject : MonoBehaviour
             gameManager.newItemCollected(transform.tag);
             gameObject.GetComponent<DialogueGiveObject>().enabled = false;
         }
-        
+        if (changeObjective)
+        {
+            updateJournal.setObjectiveText(objectiveChange);
+        }
+
     }
     private void OnCollisionEnter2D(Collision2D other)
     {

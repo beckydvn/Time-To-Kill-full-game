@@ -8,12 +8,17 @@ public class OverworldTimer : MonoBehaviour
 {
     public Text timerText;
 
-    private bool isTimer;
+    private bool isTimer =  true;
     private float timeLeft = 30;
+    private GameObject getGameManager;
+    private CarryOverInfo gameManager;
 
     // Start is called before the first frame update
     void Start()
     {
+        getGameManager = GameObject.FindGameObjectWithTag("Game Manager");
+        gameManager = (CarryOverInfo)getGameManager.GetComponent(typeof(CarryOverInfo));
+        timeLeft = gameManager.getTimeLeft();
         isTimer = true;
     }
 
@@ -21,7 +26,7 @@ public class OverworldTimer : MonoBehaviour
     {
         TimeSpan r = TimeSpan.FromSeconds(t);
 
-        timerText.text = r.ToString("ss");
+        timerText.text = r.ToString("mm':'ss':'ff");
     }
     public void setTimer(float time)
     {

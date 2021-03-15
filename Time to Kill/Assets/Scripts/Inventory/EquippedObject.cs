@@ -79,7 +79,7 @@ public class EquippedObject : MonoBehaviour
         }
     }
 
-    private void UnEquip()
+    public void UnEquip()
     {
         if (isEquipped && !inventoryActivated)
         {
@@ -99,6 +99,11 @@ public class EquippedObject : MonoBehaviour
     public void setEquippedTag(string set)
     {
         equippedTag = set;   
+    }
+
+    public string getEquippedTag()
+    {
+        return equippedTag;
     }
 
     public void setSprite(Sprite set)

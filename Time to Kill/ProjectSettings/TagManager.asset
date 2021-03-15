@@ -18,7 +18,9 @@ TagManager:
   - Sandwich
   - Fridge
   - Cemetery NPC
-  - New Pos
+  - Fire Combo
+  - Heart
+  - Jacket
   layers:
   - Default
   - TransparentFX
