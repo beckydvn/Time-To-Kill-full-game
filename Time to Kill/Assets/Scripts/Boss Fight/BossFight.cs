@@ -55,9 +55,9 @@ public class BossFight : MonoBehaviour
     private bool battleOngoing = true;
 
     //BASIC ATTACK MOVE
-    private string basicAttack = "AAA";
+    private string basicAttack = "aaa";
     //BASIC DEFENSE MOVE
-    private string basicDefense = "DDD";
+    private string basicDefense = "ddd";
     //player wins the boss battle
     private bool win = false;
 
@@ -250,7 +250,7 @@ public class BossFight : MonoBehaviour
                 if(combo.Length < 11)
                 {
                     combo += letter.ToString().ToLower();
-                } 
+                }
             }
         }
         if (Event.current.Equals(Event.KeyboardEvent("return")))
