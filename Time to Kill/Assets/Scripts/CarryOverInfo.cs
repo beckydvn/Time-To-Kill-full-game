@@ -6,7 +6,7 @@ using UnityEngine;
 public class CarryOverInfo : MonoBehaviour
 {
     private string journalObjectiveText;
-    private string journalPlanetText;
+    //private string journalPlanetText;
     private float timeLeft = 300;
     //array of objects. if the object name is in the array, then the object has already been collected
     //for an npc/object that gives an object, this means the object has already been given
@@ -33,10 +33,10 @@ public class CarryOverInfo : MonoBehaviour
     {
         journalObjectiveText = set;
     }
-    public void savePlanetText(string set)
-    {
-        journalPlanetText = set;
-    }
+    //public void savePlanetText(string set)
+    //{
+    //    journalPlanetText = set;
+    //}
     public void saveTimeLeft(float set)
     {
         timeLeft = set;
@@ -49,9 +49,8 @@ public class CarryOverInfo : MonoBehaviour
     {
         return journalObjectiveText;
     }
-
-    public string getPlanetText()
-    {
-        return journalPlanetText;
-    }
+    //public string getPlanetText()
+    //{
+    //    return journalPlanetText;
+    //}
 }

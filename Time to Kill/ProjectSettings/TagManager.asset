@@ -21,6 +21,12 @@ TagManager:
   - Fire Combo
   - Heart
   - Jacket
+  - Glass
+  - Sand
+  - Weather Clue 1
+  - Guardian Clue
+  - Planet 2 Defense 1
+  - Planet 2 Attack 1
   layers:
   - Default
   - TransparentFX
