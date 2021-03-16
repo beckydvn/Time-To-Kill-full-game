@@ -15,7 +15,7 @@ public class UpdateJournal : MonoBehaviour
         getGameManager = GameObject.FindGameObjectWithTag("Game Manager");
         gameManager = (CarryOverInfo)getGameManager.GetComponent(typeof(CarryOverInfo));
         setObjectiveText(gameManager.getObjectiveText());
-        setPlanetText(gameManager.getPlanetText());
+        //setPlanetText(gameManager.getPlanetText());
         //DontDestroyOnLoad(transform.gameObject);
     }
     private void Update()
@@ -32,9 +32,9 @@ public class UpdateJournal : MonoBehaviour
         gameManager.saveObjectiveText(set);
         journalObjectiveText.text = set;
     }
-    public void setPlanetText(string set)
-    {
-        gameManager.savePlanetText(set);
-        journalPlanetText.text = set;
-    }
+    //public void setPlanetText(string set)
+    //{
+    //    gameManager.savePlanetText(set);
+    //    journalPlanetText.text = set;
+    //}
 }
