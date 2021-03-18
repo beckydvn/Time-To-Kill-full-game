@@ -10,6 +10,16 @@ public class mainMenu : MonoBehaviour
         SceneManager.LoadScene("Player Interior");
     }
 
+    public void pressControls()
+    {
+        SceneManager.LoadScene("controls");
+    }
+
+    public void pressBack()
+    {
+        SceneManager.LoadScene("Menu Start");
+    }
+
     public void quit()
     {
         Debug.Log("Quit");
