@@ -216,12 +216,18 @@ public class BossFight : MonoBehaviour
         Destroy(player);
         battleOngoing = false;
         win = false;
+
+
         nextMove.text = bossName + " has defeated you!";
-
-        SceneManager.LoadScene("Game Over");
-
         //comboDisplay.text = "GAME OVER!";
+        StartCoroutine(loadGameOver());
+        
+    }
 
+    IEnumerator loadGameOver()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("Game Over");
     }
 
     //randomnly generate next stage
