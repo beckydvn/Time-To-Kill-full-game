@@ -15,10 +15,11 @@ public class mainMenu : MonoBehaviour
         SceneManager.LoadScene("controls");
     }
 
-    public void pressBack()
+    public void pressMenu()
     {
         SceneManager.LoadScene("Menu Start");
     }
+
 
     public void quit()
     {

@@ -217,7 +217,11 @@ public class BossFight : MonoBehaviour
         battleOngoing = false;
         win = false;
         nextMove.text = bossName + " has defeated you!";
-        comboDisplay.text = "GAME OVER!";
+
+        SceneManager.LoadScene("Game Over");
+
+        //comboDisplay.text = "GAME OVER!";
+
     }
 
     //randomnly generate next stage
@@ -270,7 +274,7 @@ public class BossFight : MonoBehaviour
                 else
                 {
                     //RESTART CURRENT PLANET
-                    SceneManager.LoadScene("Planet 1");
+                    SceneManager.LoadScene("Game Over");
                 }
             }
             
