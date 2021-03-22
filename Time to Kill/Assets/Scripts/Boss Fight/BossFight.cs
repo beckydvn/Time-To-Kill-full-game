@@ -216,8 +216,18 @@ public class BossFight : MonoBehaviour
         Destroy(player);
         battleOngoing = false;
         win = false;
+
+
         nextMove.text = bossName + " has defeated you!";
-        comboDisplay.text = "GAME OVER!";
+        //comboDisplay.text = "GAME OVER!";
+        StartCoroutine(loadGameOver());
+        
+    }
+
+    IEnumerator loadGameOver()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("Game Over");
     }
 
     //randomnly generate next stage
@@ -270,7 +280,7 @@ public class BossFight : MonoBehaviour
                 else
                 {
                     //RESTART CURRENT PLANET
-                    SceneManager.LoadScene("Planet 1");
+                    SceneManager.LoadScene("Game Over");
                 }
             }
             
