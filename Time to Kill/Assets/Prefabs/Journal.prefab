@@ -414,7 +414,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db414f1dd8a0bc74293d252297aeaf92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  getInv: {fileID: 0}
   player: {fileID: 0}
 --- !u!1 &966436520694155912
 GameObject:
@@ -711,7 +710,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Current planet
+  m_text: 'Current planet:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
