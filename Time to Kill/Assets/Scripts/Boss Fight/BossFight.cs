@@ -275,7 +275,7 @@ public class BossFight : MonoBehaviour
                 if(win)
                 {
                     //LOAD NEXT PLANET
-                    SceneManager.LoadScene("Planet 1");
+                    SceneManager.LoadScene("travel");
                 }
                 else
                 {

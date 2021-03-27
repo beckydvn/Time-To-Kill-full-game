@@ -1028,6 +1028,7 @@ GameObject:
   - component: {fileID: 798904077}
   - component: {fileID: 798904076}
   - component: {fileID: 798904078}
+  - component: {fileID: 798904079}
   m_Layer: 5
   m_Name: Enemy
   m_TagString: Untagged
@@ -1124,6 +1125,25 @@ MonoBehaviour:
   - splash
   enemyDefenses:
   - hydrate
+--- !u!95 &798904079
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798904074}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9a7afb33fcef00d499d2b796173e7b93, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &836202704
 GameObject:
   m_ObjectHideFlags: 0
