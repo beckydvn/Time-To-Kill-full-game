@@ -27,6 +27,9 @@ TagManager:
   - Guardian Clue
   - Planet 2 Defense 1
   - Planet 2 Attack 1
+  - Switch
+  - Number Switch
+  - Switch Panel
   layers:
   - Default
   - TransparentFX
