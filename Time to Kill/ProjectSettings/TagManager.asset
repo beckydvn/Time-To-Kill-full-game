@@ -30,6 +30,11 @@ TagManager:
   - Switch
   - Number Switch
   - Switch Panel
+  - Candle
+  - Yarn
+  - Needle
+  - Cheese
+  - Leaf
   layers:
   - Default
   - TransparentFX

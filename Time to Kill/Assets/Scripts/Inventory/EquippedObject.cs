@@ -40,7 +40,7 @@ public class EquippedObject : MonoBehaviour
     void Update()
     {
         inventoryActivated = accessInv.getInvStatus();
-        Debug.Log(equippedTag);
+        //Debug.Log(equippedTag);
     }
 
     public bool getUsed()
