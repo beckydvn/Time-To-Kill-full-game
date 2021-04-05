@@ -76,12 +76,19 @@ public class BossFight : MonoBehaviour
     //chargebar amount
     private float charge;
 
-
     //boss-specific data
     public string[] playerAttacks;
     public string[] playerDefenses;
     public string[] enemyAttacks;
     public string[] enemyDefenses;
+
+    //get game manager
+    private GameObject getGameManager;
+    private CarryOverInfo gameManager;
+    //next planet
+    public string destination;
+    //current planet
+    public string restart;
 
     // Start is called before the first frame update
     void Start()
@@ -96,6 +103,8 @@ public class BossFight : MonoBehaviour
         charge = chargedBar.getMaxCharge();
         //timer.setTimer(defenseTime);
         numCombos = playerAttacks.Length;
+        getGameManager = GameObject.FindGameObjectWithTag("Game Manager");
+        gameManager = (CarryOverInfo)getGameManager.GetComponent(typeof(CarryOverInfo));
         NextStage();
     }
 
@@ -219,7 +228,6 @@ public class BossFight : MonoBehaviour
 
 
         nextMove.text = bossName + " has defeated you!";
-        //comboDisplay.text = "GAME OVER!";
         StartCoroutine(loadGameOver());
         
     }
@@ -227,7 +235,8 @@ public class BossFight : MonoBehaviour
     IEnumerator loadGameOver()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("Game Over");
+        //SceneManager.LoadScene("Game Over");
+        gameManager.GameOver();
     }
 
     //randomnly generate next stage
@@ -275,12 +284,14 @@ public class BossFight : MonoBehaviour
                 if(win)
                 {
                     //LOAD NEXT PLANET
-                    SceneManager.LoadScene("travel");
+                    //SceneManager.LoadScene("travel");
+                    gameManager.NextPlanet(destination);
                 }
                 else
                 {
                     //RESTART CURRENT PLANET
-                    SceneManager.LoadScene("Game Over");
+                    //SceneManager.LoadScene("Game Over");
+                    GameOver();
                 }
             }
             

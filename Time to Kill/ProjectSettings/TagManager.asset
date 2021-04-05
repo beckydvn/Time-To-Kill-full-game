@@ -35,6 +35,7 @@ TagManager:
   - Needle
   - Cheese
   - Leaf
+  - Travel
   layers:
   - Default
   - TransparentFX

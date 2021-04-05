@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Planet 1.unity
     guid: 15c7a6f5b2f1b9641b313f62048507ee
   - enabled: 1
-    path: Assets/Scenes/Boss Fight.unity
+    path: Assets/Scenes/Boss Fight 1.unity
     guid: 48e376f026a298846aebb162c7044164
   - enabled: 1
     path: Assets/Scenes/Astronaut Interior.unity
@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/travel.unity
     guid: ece226d8a7efc4e419b86d7461f41475
+  - enabled: 1
+    path: Assets/Scenes/Planet 2.unity
+    guid: f9bd059533af4ca42af61a5b5a2fbc5d
+  - enabled: 1
+    path: Assets/Scenes/Planet 3.unity
+    guid: 03a964d7e4428474ba788e8af1b6dd6e
   m_configObjects: {}
