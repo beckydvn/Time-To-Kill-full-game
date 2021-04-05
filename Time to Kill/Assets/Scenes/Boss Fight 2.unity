@@ -1130,8 +1130,8 @@ MonoBehaviour:
   - with a sandclaw attack
   - by intimidating you
   enemyDefenses:
-  - by burrowing into the sand
-  - by evading your attacks
+  - by flying into the sky
+  - 'by quickly evading your attacks '
   destination: Planet 3
   restart: 
 --- !u!95 &798904079
