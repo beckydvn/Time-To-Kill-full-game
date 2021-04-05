@@ -146,11 +146,11 @@ public class BossFight : MonoBehaviour
             {
                 if(attacking)
                 {
-                    nextMove.text = bossName + " is preparing to defend himself with " + enemyMove;
+                    nextMove.text = bossName + " is preparing to defend himself " + enemyMove;
                 }
                 else
                 {
-                    nextMove.text = bossName + " is preparing to attack you with " + enemyMove;
+                    nextMove.text = bossName + " is preparing to attack you " + enemyMove;
                 }    
             }
         }
@@ -266,12 +266,20 @@ public class BossFight : MonoBehaviour
         {
             if (Event.current.Equals(Event.KeyboardEvent(letter.ToString())))
             {
-                if(combo.Length < 11)
+                if(combo.Length < 15)
                 {
                     combo += letter.ToString().ToLower();
                 }
             }
+
         }
+        if(Event.current.Equals(Event.KeyboardEvent(" ")))
+            {
+                if (combo.Length < 15)
+                {
+                    combo += " ";
+                }
+            }
         if (Event.current.Equals(Event.KeyboardEvent("return")))
         {
             //can only end turn early if you are attacking
