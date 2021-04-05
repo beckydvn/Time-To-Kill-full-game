@@ -1112,7 +1112,7 @@ MonoBehaviour:
   nextMove: {fileID: 1462247771}
   attackTime: 8
   defenseTime: 5
-  bossName: Flooble
+  bossName: terrestrior
   getPlayerHealthBar: {fileID: 565843191}
   getEnemyHealthBar: {fileID: 1439390074}
   percentBasic: 0.1

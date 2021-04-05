@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Planet 3.unity
     guid: 03a964d7e4428474ba788e8af1b6dd6e
+  - enabled: 1
+    path: Assets/Scenes/Win Game.unity
+    guid: ec55d3ff2cc148546866533693c84116
   m_configObjects: {}
