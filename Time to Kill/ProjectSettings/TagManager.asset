@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - UI Inventory Object
-  - Spaghetti
   - Game Manager
   - Journal
   - Inventory
@@ -36,6 +35,9 @@ TagManager:
   - Cheese
   - Leaf
   - Travel
+  - Planet 2 Attack 2
+  - Planet 2 Defense 2
+  - Equip Canvas
   layers:
   - Default
   - TransparentFX

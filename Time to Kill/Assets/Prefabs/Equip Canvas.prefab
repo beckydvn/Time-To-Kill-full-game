@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 20230510451372318}
   m_Layer: 5
   m_Name: Equip Canvas
-  m_TagString: Untagged
+  m_TagString: Equip Canvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

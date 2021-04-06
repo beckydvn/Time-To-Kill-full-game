@@ -16,6 +16,7 @@ public class CarryOverInfo : MonoBehaviour
 
     private GameObject journal;
     private GameObject inventory;
+    private GameObject equipCanvas;
 
     private void Start()
     {
@@ -24,7 +25,7 @@ public class CarryOverInfo : MonoBehaviour
     }
     public void GameOver()
     {
-        SceneManager.LoadScene("Game Over");
+        StartCoroutine(GameOverPause());
     }
     public void NextPlanet(string dest)
     {
@@ -35,10 +36,33 @@ public class CarryOverInfo : MonoBehaviour
     {
         yield return new WaitForSeconds(7);
         SceneManager.LoadScene(dest);
+        Reset();
+    }
+    IEnumerator GameOverPause()
+    {
+        yield return new WaitForSeconds(4);
+        SceneManager.LoadScene("Game Over");
+        Reset();
+    }
+    private void Reset()
+    {
         journal = GameObject.FindGameObjectWithTag("Journal");
         inventory = GameObject.FindGameObjectWithTag("Inventory");
+        equipCanvas = GameObject.FindGameObjectWithTag("Equip Canvas");
         Destroy(journal);
         Destroy(inventory);
+        Destroy(equipCanvas);
+        for(int i = 0; i < collected.Count; i++)
+        {
+            GameObject obj = GameObject.FindGameObjectWithTag(collected[i]);
+            Destroy(obj);
+        }
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("UI Inventory Object");
+        for (int i = 0; i < objs.Length; i++)
+        {
+            Destroy(objs[i]);
+        }
+            
         Destroy(transform.gameObject);
     }
     public void newItemCollected(string set)

@@ -55,6 +55,7 @@ public class countdownTimer : MonoBehaviour
             {
                 timeLeft = 0;
                 isTimer = false;
+                gameManager.GameOver();
             }
             
         }
