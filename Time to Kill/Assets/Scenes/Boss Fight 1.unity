@@ -12657,7 +12657,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1533337026222035379, guid: a828d3431b40a2a4f935586c4b744f15, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1533337026222035388, guid: a828d3431b40a2a4f935586c4b744f15, type: 3}
       propertyPath: timeLeft
