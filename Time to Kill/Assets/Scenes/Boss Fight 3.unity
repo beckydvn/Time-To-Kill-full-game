@@ -1121,7 +1121,7 @@ MonoBehaviour:
   getChargedBar: {fileID: 1788684708456464118}
   getOverworldTime: {fileID: 5708427061827573717}
   playerAttacks:
-  - hydro blast
+  - hydroblast
   - wavecurve
   playerDefenses:
   - hydrobubble
@@ -12665,7 +12665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1533337026222035388, guid: a828d3431b40a2a4f935586c4b744f15, type: 3}
       propertyPath: timeLeft
-      value: 5
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 1533337026222035388, guid: a828d3431b40a2a4f935586c4b744f15, type: 3}
       propertyPath: getTravel
