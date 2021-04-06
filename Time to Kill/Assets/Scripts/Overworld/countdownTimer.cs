@@ -13,12 +13,14 @@ public class countdownTimer : MonoBehaviour
 
     private GameObject getGameManager;
     private CarryOverInfo gameManager;
+    private GameObject getTextDisplay;
 
     // Start is called before the first frame update
     void Start()
     {
         getGameManager = GameObject.FindGameObjectWithTag("Game Manager");
         gameManager = (CarryOverInfo)getGameManager.GetComponent(typeof(CarryOverInfo));
+        
         timeLeft = gameManager.getTimeLeft();
         isTimer = true;
     }
@@ -48,7 +50,11 @@ public class countdownTimer : MonoBehaviour
         {
             if(timeLeft > 0)
             {
-                timeLeft -= Time.deltaTime;
+                getTextDisplay = GameObject.FindGameObjectWithTag("Dialogue Background");
+                if (getTextDisplay == null)
+                {
+                    timeLeft -= Time.deltaTime;
+                }
                 displayTime(timeLeft);
             }
             else

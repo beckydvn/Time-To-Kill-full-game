@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Win Game.unity
     guid: ec55d3ff2cc148546866533693c84116
+  - enabled: 1
+    path: Assets/Scenes/Planet 1 - Copy.unity
+    guid: 906dbeb7abc1f4f408dbbe15452d4d16
   m_configObjects: {}
