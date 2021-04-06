@@ -1260,8 +1260,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.4765, y: -0.0000013113}
-  m_SizeDelta: {x: 367.7303, y: 47.6116}
+  m_AnchoredPosition: {x: 2.1404, y: -0.0000013113}
+  m_SizeDelta: {x: 358.4965, y: 47.6116}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &883695110
 MonoBehaviour:
@@ -1346,7 +1346,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.16777325, y: 0, z: 8.099943, w: 0}
+  m_margin: {x: 42.643036, y: 0, z: 53.34525, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -12657,11 +12657,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1533337026222035379, guid: a828d3431b40a2a4f935586c4b744f15, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1533337026222035388, guid: a828d3431b40a2a4f935586c4b744f15, type: 3}
       propertyPath: timeLeft
-      value: 300
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1533337026222035388, guid: a828d3431b40a2a4f935586c4b744f15, type: 3}
       propertyPath: getTravel
