@@ -1121,7 +1121,7 @@ MonoBehaviour:
   getChargedBar: {fileID: 1788684708456464118}
   getOverworldTime: {fileID: 5708427061827573717}
   playerAttacks:
-  - hydro blast
+  - hydroblast
   - wavecurve
   playerDefenses:
   - hydrobubble
