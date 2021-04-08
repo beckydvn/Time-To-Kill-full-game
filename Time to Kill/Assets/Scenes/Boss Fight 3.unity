@@ -1110,7 +1110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   comboDisplay: {fileID: 883695110}
   nextMove: {fileID: 1462247771}
-  attackTime: 4
+  attackTime: 3
   defenseTime: 3
   bossName: Blazenite
   getPlayerHealthBar: {fileID: 565843191}

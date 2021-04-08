@@ -1110,8 +1110,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   comboDisplay: {fileID: 883695110}
   nextMove: {fileID: 1462247771}
-  attackTime: 5
-  defenseTime: 3
+  attackTime: 4
+  defenseTime: 4
   bossName: scorpiosis
   getPlayerHealthBar: {fileID: 565843191}
   getEnemyHealthBar: {fileID: 1439390074}
